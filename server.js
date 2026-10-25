@@ -18,4 +18,4 @@ createServer(async (req, res) => {
   } catch {
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' }).end('Nie znaleziono strony');
   }
-}).listen(Number(process.env.PORT || 3000), '0.0.0.0', () => console.log('Korzenie TCM — serwer działa na porcie ' + (process.env.PORT || 3000)));
+}).listen(Number(process.env.PORT || 3000), '0.0.0.0', () => console.log('Fiszki TCM — serwer działa na porcie ' + (process.env.PORT || 3000)));

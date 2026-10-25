@@ -1,4 +1,4 @@
-# Korzenie — nauka wzorców TCM
+# Fiszki TCM — nauka wzorców TCM
 
 Polska mini gra **wzorzec → objawy** z białym tłem i tekstowymi kafelkami. Wybrany kafelek ciemnieje; po sprawdzeniu zielony oznacza trafienie, czerwony błędny wybór, żółty pominięty pasujący objaw.
 
