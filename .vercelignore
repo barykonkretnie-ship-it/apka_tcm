@@ -1,0 +1,9 @@
+.git
+.vercel
+node_modules
+test
+content/kompendium-extracted.json
+content/meandqi-facts.json
+content/source-mapping.json
+content/README.md
+*.log

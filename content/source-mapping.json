@@ -1,0 +1,402 @@
+[
+  {
+    "number": 1,
+    "slug": "kidney-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 2,
+    "slug": "kidney-yang-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 3,
+    "slug": "kidney-yin-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 4,
+    "slug": "kidney-essence-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 5,
+    "slug": "kidney-yin-deficiency-with-empty-heat-blazing",
+    "status": "matched"
+  },
+  {
+    "number": 6,
+    "slug": "heart-and-kidney-yin-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 7,
+    "slug": "kidneys-failing-to-receive-qi",
+    "status": "matched"
+  },
+  {
+    "number": 8,
+    "slug": "damp-heat-in-the-bladder",
+    "status": "matched"
+  },
+  {
+    "number": 9,
+    "slug": "damp-heat-in-the-bladder",
+    "status": "matched"
+  },
+  {
+    "number": 10,
+    "slug": "heart-fire-transmitting-to-the-small-intestine",
+    "status": "matched"
+  },
+  {
+    "number": 11,
+    "slug": "bright-yang-fire-in-stomach-and-intestines",
+    "status": "related-only"
+  },
+  {
+    "number": 12,
+    "slug": "liver-fire-blazing",
+    "status": "related-only"
+  },
+  {
+    "number": 13,
+    "slug": "liver-qi-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 14,
+    "slug": "liver-yang-rising",
+    "status": "matched"
+  },
+  {
+    "number": 15,
+    "slug": "liver-fire-blazing",
+    "status": "matched"
+  },
+  {
+    "number": 16,
+    "slug": "damp-heat-in-the-liver-channel",
+    "status": "matched"
+  },
+  {
+    "number": 17,
+    "slug": "liver-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 18,
+    "slug": "liver-yin-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 19,
+    "slug": "empty-fire-caused-by-yin-deficiency",
+    "status": "related-only"
+  },
+  {
+    "number": 20,
+    "slug": "rebellious-liver-qi",
+    "status": "matched"
+  },
+  {
+    "number": 21,
+    "slug": "liver-blood-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 22,
+    "slug": "liver-blood-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 23,
+    "slug": "liver-fire-insulting-the-lungs",
+    "status": "matched"
+  },
+  {
+    "number": 24,
+    "slug": "liver-wind-agitating-internally-due-to-liver-yang-rising",
+    "status": "matched"
+  },
+  {
+    "number": 25,
+    "slug": "gallbladder-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 26,
+    "slug": "damp-heat-in-the-gallbladder",
+    "status": "matched"
+  },
+  {
+    "number": 27,
+    "slug": "heart-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 28,
+    "slug": "heart-yang-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 29,
+    "slug": "heart-blood-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 30,
+    "slug": "heart-yin-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 31,
+    "slug": "heart-yang-collapsing",
+    "status": "matched"
+  },
+  {
+    "number": 32,
+    "slug": "phlegm-fire-harassing-the-heart",
+    "status": "matched"
+  },
+  {
+    "number": 33,
+    "slug": "heart-blood-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 34,
+    "slug": "heart-fire-blazing",
+    "status": "matched"
+  },
+  {
+    "number": 35,
+    "slug": "heart-qi-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 36,
+    "slug": null,
+    "status": "unmatched"
+  },
+  {
+    "number": 37,
+    "slug": "heart-fire-transmitting-to-the-small-intestine",
+    "status": "matched"
+  },
+  {
+    "number": 38,
+    "slug": "small-intestine-deficient-and-cold",
+    "status": "related-only"
+  },
+  {
+    "number": 39,
+    "slug": "spleen-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 40,
+    "slug": "spleen-yang-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 41,
+    "slug": "spleen-not-controlling-blood",
+    "status": "matched"
+  },
+  {
+    "number": 42,
+    "slug": "spleen-deficiency-with-dampness",
+    "status": "matched"
+  },
+  {
+    "number": 43,
+    "slug": "cold-damp-invading-the-spleen",
+    "status": "matched"
+  },
+  {
+    "number": 44,
+    "slug": null,
+    "status": "unmatched"
+  },
+  {
+    "number": 45,
+    "slug": "spleen-qi-sinking",
+    "status": "matched"
+  },
+  {
+    "number": 46,
+    "slug": "cold-invading-the-stomach",
+    "status": "matched"
+  },
+  {
+    "number": 47,
+    "slug": "stomach-heat-stomach-fire",
+    "status": "matched"
+  },
+  {
+    "number": 48,
+    "slug": "food-stagnation-in-the-stomach",
+    "status": "matched"
+  },
+  {
+    "number": 49,
+    "slug": "stomach-blood-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 50,
+    "slug": "stomach-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 51,
+    "slug": "stomach-yang-deficient-and-cold",
+    "status": "matched"
+  },
+  {
+    "number": 52,
+    "slug": "stomach-qi-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 53,
+    "slug": "rebellious-stomach-qi",
+    "status": "matched"
+  },
+  {
+    "number": 54,
+    "slug": "stomach-yin-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 55,
+    "slug": "wind-cold-invading-the-lungs",
+    "status": "matched"
+  },
+  {
+    "number": 56,
+    "slug": "wind-heat-invading-the-lungs",
+    "status": "matched"
+  },
+  {
+    "number": 57,
+    "slug": "wind-cold-water-invading-the-lungs",
+    "status": "matched"
+  },
+  {
+    "number": 58,
+    "slug": "phlegm-heat-in-the-lungs",
+    "status": "matched"
+  },
+  {
+    "number": 59,
+    "slug": "phlegm-fluids-in-the-lungs",
+    "status": "matched"
+  },
+  {
+    "number": 60,
+    "slug": "lung-yin-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 61,
+    "slug": "lung-dryness",
+    "status": "matched"
+  },
+  {
+    "number": 62,
+    "slug": "lung-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 63,
+    "slug": "phlegm-clogging-the-lungs-with-qi-stagnation",
+    "status": "related-only"
+  },
+  {
+    "number": 64,
+    "slug": "rebellious-lung-qi",
+    "status": "matched"
+  },
+  {
+    "number": 65,
+    "slug": "heat-in-the-large-intestine",
+    "status": "matched"
+  },
+  {
+    "number": 66,
+    "slug": "damp-heat-in-the-large-intestine",
+    "status": "matched"
+  },
+  {
+    "number": 67,
+    "slug": null,
+    "status": "unmatched"
+  },
+  {
+    "number": 68,
+    "slug": "cold-invading-the-large-intestine",
+    "status": "matched"
+  },
+  {
+    "number": 69,
+    "slug": "large-intestine-dryness",
+    "status": "matched"
+  },
+  {
+    "number": 70,
+    "slug": "large-intestine-cold",
+    "status": "related-only"
+  },
+  {
+    "number": 71,
+    "slug": "large-intestine-qi-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 72,
+    "slug": "large-intestine-collapse",
+    "status": "related-only"
+  },
+  {
+    "number": 73,
+    "slug": "large-intestine-cold",
+    "status": "related-only"
+  },
+  {
+    "number": 74,
+    "slug": "qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 75,
+    "slug": null,
+    "status": "unmatched"
+  },
+  {
+    "number": 76,
+    "slug": null,
+    "status": "unmatched"
+  },
+  {
+    "number": 77,
+    "slug": "protective-qi-deficiency",
+    "status": "matched"
+  },
+  {
+    "number": 78,
+    "slug": null,
+    "status": "unmatched"
+  },
+  {
+    "number": 79,
+    "slug": "qi-stagnation",
+    "status": "matched"
+  },
+  {
+    "number": 80,
+    "slug": "qi-collapsing-or-qi-sinking",
+    "status": "related-only"
+  }
+]

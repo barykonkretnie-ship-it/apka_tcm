@@ -1,0 +1,642 @@
+[
+  {
+    "number": 1,
+    "name": "Niedobór Qi Nerek (Ogólny)",
+    "page": 3,
+    "raw": "Nerki nie mogą otwierać i zamykać dolnych wrót. Ból dolnej części pleców i kolan, częste oddawanie moczu (słaby strumień), popuszczanie, nietrzymanie moczu, moczenie nocne, nocne polucje, przewlekłe upławy, sączenie moczu, przedwczesny wytrysk, nasieniotok, duszność, utrudniony oddech, bezpłodność.",
+    "pulse": "Głęboki, słaby, szczególnie w tylnej pozycji",
+    "tongue": "Blady"
+  },
+  {
+    "number": 2,
+    "name": "Niedobór Yang Nerek",
+    "page": 3,
+    "raw": "Ból w dolnej części pleców i kolanach, zimne plecy, zimne ciało, impotencja, osłabienie, zmęczenie, częste obfite oddawanie moczu, niepłodność u kobiet, przedwczesny wytrysk, niski popęd płciowy.",
+    "pulse": "Głęboki, słaby, wolny",
+    "tongue": "Blady, spuchnięty z wilgotnym nalotem"
+  },
+  {
+    "number": 3,
+    "name": "Niedobór Yin Nerek",
+    "page": 3,
+    "raw": "Szum w uszach (niski ton, stałe), bóle kości, bolesne plecy, zawroty głowy, słaba pamięć (długotrwała), ciemny skąpy mocz, nocne poty, nocne wytryski, niska gorączka, czerwone policzki, suchość w ustach, słabe lędźwie i kolana, częstomocz (słaby strumień), kapanie moczu, nietrzymanie, przewlekła wydzielina z pochwy.",
+    "pulse": "Cienkie, szybkie",
+    "tongue": "Czerwony, z pęknięciem na środku, sucha powłoka"
+  },
+  {
+    "number": 4,
+    "name": "Niedobór Esencji Nerek (Jing)",
+    "page": 3,
+    "raw": "Słaby rozwój kości lub umysłowy u dzieci, późne zamykanie ciemiączka. U dorosłych: miękkość kości, słabe kolana, słaba pamięć, luźne zęby, przedwczesne wypadanie włosów i/lub siwienie, brak libido, problemy z rozrodem, przedwczesne starzenie.",
+    "pulse": "Słaby, pusty i głęboki",
+    "tongue": "Czerwony, złuszczony"
+  },
+  {
+    "number": 5,
+    "name": "Niedobór Yin Nerek z Ogniem",
+    "page": 3,
+    "raw": "Objawy niedoboru Yin nerek plus oznaki nadmiaru ognia: nadmierne libido, niepokój psychiczny, krew w moczu, czerwone policzki, pobudzenie, nocne poty, gorączka niskiego stopnia, bezsenność, suchość w gardle, suche stolce, ból lędźwi.",
+    "pulse": "Pusty, duży i szybki",
+    "tongue": "Czerwony, popękany u nasady języka"
+  },
+  {
+    "number": 6,
+    "name": "Dysharmonia między Nerkami a Sercem",
+    "page": 3,
+    "raw": "Niedobór Yin wpływający na oba systemy. Bezsenność (przewracanie się całą noc), palpitacje, sen zaburzony przez sny, słaba pamięć, zawroty głowy, szumy uszne, nocne wytryski, nocne poty, skąpy-ciemny mocz, niepokój, ból w dole pleców.",
+    "pulse": "Cienki, szybki, pusty, słaby",
+    "tongue": "Czerwony, czerwony koniuszek, złuszczony"
+  },
+  {
+    "number": 7,
+    "name": "Zbuntowane Qi Nerek (Brak kotwiczenia Qi / Qi Ni)",
+    "page": 3,
+    "raw": "Brak zdolności kotwiczenia Qi na dole (brak kontroli nad schodzącym Qi płuc i serca). Objawy: duszność przy wdechu, astma nasilająca się przy wysiłku, płytkie wysokie piersiowe oddychanie, duszność ustępująca po spoczynku, palpitacje, przewlekłe zmęczenie, słaby głos, spontaniczne poty przy lada wysiłku, lęk, słaba wola, brak zdecydowania, słabość lub ból dolnych pleców i kolan, uczucie zimna.",
+    "pulse": "Głębokie, słabe, czasem powolne",
+    "tongue": "Język blady, czasem obrzęknięty"
+  },
+  {
+    "number": 8,
+    "name": "Nadmiar / Wilgotne Gorąco w Pęcherzu Moczowym",
+    "page": 5,
+    "raw": "Częste, pilne, bolesne i piekące oddawanie moczu, trudności w oddawaniu moczu, krew w moczu, piasek lub drobne kamyki, gorączka i pragnienie.",
+    "pulse": "Śliski, drutowaty, szybki",
+    "tongue": "Gruba żółta lepiąca się powłoka, zwłaszcza u nasady"
+  },
+  {
+    "number": 9,
+    "name": "Wilgoć – Żar w Pęcherzu Moczowym (Inwazja Patogenów)",
+    "page": 5,
+    "raw": "Spowodowany inwazją patogenów zewnętrznych (infekcją bakteryjną). Powoduje nagłą, bolesną, piekącą, częstą mikcję, która jest ciemna i mętna.",
+    "pulse": "Szybki, śliski",
+    "tongue": "Żółty tłusty nalot u nasady (tył języka)"
+  },
+  {
+    "number": 10,
+    "name": "Ogień Serca schodzący do Jelita Cienkiego (Mikcja)",
+    "page": 5,
+    "raw": "Wynik emocji. Piekące, częste, bolesne oddawanie moczu (jak śródmiąższowe zapalenie pęcherza) z bezsennością, palpitacjami serca, lękiem, czerwienią twarzy.",
+    "pulse": "Szybki, pełny na czubku",
+    "tongue": "Czerwony (czerwony szczyt) i żółty nalot u nasady"
+  },
+  {
+    "number": 11,
+    "name": "Żar w Żołądku i Jelicie Grubym (Mikcja)",
+    "page": 5,
+    "raw": "Wynika z diety. Zaparcia, pragnienie zimnych napojów, czerwone usta, nieświeży oddech, wpływ na skąpy i ciemny mocz.",
+    "pulse": "Pełny, szybki",
+    "tongue": "Czerwony z żółtym nalotem w centrum i u nasady"
+  },
+  {
+    "number": 12,
+    "name": "Ogień Wątroby (Mikcja)",
+    "page": 5,
+    "raw": "Wynika z długotrwałego stresu. Częste, piekące, bolesne, mocno skoncentrowane oddawanie moczu z wybuchami gniewu, bólami głowy w okolicy skroni, czerwonymi oczami.",
+    "pulse": "Strunowaty, szybki",
+    "tongue": "Czerwony z czerwonymi krostkami na bokach"
+  },
+  {
+    "number": 13,
+    "name": "Stagnacja Qi Wątroby (Ogólna)",
+    "page": 7,
+    "raw": "Ból w okolicy żeber, wzdychanie, wahania nastroju, stres, westchnienia, nudności, kwaśny smak, refluks kwasowy, odbijanie, uczucie guli w gardle, PMS (obrzmienie piersi, zachcianki, drażliwość).",
+    "pulse": "Napięty / Strunowaty",
+    "tongue": "Normalny"
+  },
+  {
+    "number": 14,
+    "name": "Wzrastające Yang Wątroby",
+    "page": 7,
+    "raw": "Wynika z zastoju Qi Wątroby i stresu wywołującego złość. Bóle głowy skroniowe, bezsenność (budzenie między 1 a 3 w nocy), gniew, zawroty głowy, szumy uszne, suchość w ustach/oczach, zaczerwienienie twarzy.",
+    "pulse": "Napięty, szybki",
+    "tongue": "Czerwony, szczególnie boki"
+  },
+  {
+    "number": 15,
+    "name": "Ogień w Wątrobie",
+    "page": 7,
+    "raw": "Silniejszy niż wzrost Yang. Ból w skroniach, wściekłość, czerwona twarz i oczy, gorzki smak, pragnienie, zaparcia, ciemny mocz, zawroty głowy, szumy uszne, krwawienie z nosa.",
+    "pulse": "Sprężyste (strunowaty), szybkie",
+    "tongue": "Czerwone boki, żółty nalot"
+  },
+  {
+    "number": 16,
+    "name": "Wilgoć – Ciepło w Wątrobie",
+    "page": 7,
+    "raw": "Wpływa głównie na kanał (stan ostry). Gorączka, skąpy ciemny mocz, żółta twarz i twardówka (żółtaczka), nudności, wymioty, wzdęcia, swędząca i żółta wydzielina z pochwy, obrzęk i zaczerwienienie moszny.",
+    "pulse": "Napięte, szybkie i śliskie",
+    "tongue": "Czerwony z tłustym żółtym nalotem"
+  },
+  {
+    "number": 17,
+    "name": "Niedobór Qi Wątroby",
+    "page": 7,
+    "raw": "Zmęczenie, nieśmiałość, zawroty, niezdecydowanie, lęki, słaby apetyt, niewyraźne widzenie, męty w oczach, niespokojne sny, częste wzdychanie, wzdęcia brzucha, nieregularny okres.",
+    "pulse": "Słaby, napięty",
+    "tongue": "Blady, blade boki"
+  },
+  {
+    "number": 18,
+    "name": "Niedobór Yin Wątroby",
+    "page": 7,
+    "raw": "Suche oczy, zamazane widzenie, czerwone policzki, nocne poty.",
+    "pulse": "Żylasty (strunowaty), niciowy",
+    "tongue": "Czerwony, suchy nalot"
+  },
+  {
+    "number": 19,
+    "name": "Niedoór Yin Wątroby z pustym ogniem",
+    "page": 7,
+    "raw": "to co w niedoborze Yin + gniew, frustracje, rozdrażnienie, niepokój, zaczerw. twarzy, szumy uszne o wysokich tonach, porażenia połowiczne, obfite krwawienia, uczucie gorąca wieczorem, nocne pocenie się, pragnienie picia ale małymi łykami, ",
+    "pulse": "x",
+    "tongue": "Czerwny bez nalotu"
+  },
+  {
+    "number": 20,
+    "name": "Zbuntowane Qi Wątroby (Qi Ni)",
+    "page": 7,
+    "raw": "Idzie patologicznie do góry: drażliwość, wybuchowość, łatwe wpadanie w złość, 'gotowanie się w środku', wahania nastroju, bóle głowy skroniowe i na czubku głowy, rozpieranie pod żebrami, ziewanie, westchnienia, bekanie, nudności, wymioty, gula w gardle, fale gorąca, gorzki smak.",
+    "pulse": "Strunowaty (napięty), szybki",
+    "tongue": "Czerwony na bokach"
+  },
+  {
+    "number": 21,
+    "name": "Niedobór Krwi w Wątrobie",
+    "page": 8,
+    "raw": "Blada, matowa twarz, usta i paznokcie; łamliwe paznokcie; niewyraźne widzenie; męty w polu widzenia; drętwienie kończyn; skurcze mięśni; zawroty głowy, bezsenność, skąpe miesiączki, słabe mięśnie.",
+    "pulse": "Nierówny, cienki",
+    "tongue": "Blade boki"
+  },
+  {
+    "number": 22,
+    "name": "Zastój Krwi w Wątrobie",
+    "page": 8,
+    "raw": "Purpurowe usta, język, paznokcie; przeszywający stały ból głowy lub miejscowy ból.",
+    "pulse": "Sprężysty (strunowaty)",
+    "tongue": "Różowy / Fioletowy"
+  },
+  {
+    "number": 23,
+    "name": "Wątroba obraża (atakuje) Płuca",
+    "page": 8,
+    "raw": "Gorąco Wątroby wyczerpujące Qi Płuc. Duszność, astma, kaszel z żółtą lub krwistą flegmą, ból żeber, ból głowy, zawroty głowy, gorzki smak, pragnienie.",
+    "pulse": "Napięty, śliski",
+    "tongue": "Czerwone boki z żółtym nalotem"
+  },
+  {
+    "number": 24,
+    "name": "Yang Wątroby tworzy Wiatr",
+    "page": 8,
+    "raw": "Wiatr wewnętrzny objawia się drgawkami, niedowładem (porażeniem) połowiczym oraz odchyleniem oczu i/lub ust, trudnościami w mówieniu, zawrotami głowy, omdleniami, czerwonymi policzkami, niską gorączką, suchą jamą ustną.",
+    "pulse": "Sprężyste (strunowaty), szybkie, cienkie",
+    "tongue": "Czerwony, łuszczący się i odchylony"
+  },
+  {
+    "number": 25,
+    "name": "Niedobór Qi Pęcherzyka Żółciowego",
+    "page": 10,
+    "raw": "Brak pewności siebie, niezdecydowanie, brak inicjatywy, niespokojne sny i powtarzające się koszmary, skłonność do łatwego przestraszania się, nerwowość, nieśmiałość. Zamglone widzenie, zawroty głowy.",
+    "pulse": "Słabe",
+    "tongue": "Blade boki"
+  },
+  {
+    "number": 26,
+    "name": "Wilgoć – Ciepło w Pęcherzyku Żółciowym",
+    "page": 10,
+    "raw": "Stan ostry lub przewlekły. Rozszerzenie i ból żeber, trudności w trawieniu tłuszczów, żółta twarz, kwaśny smak, nudności, wymioty, skąpy ciemnożółty mocz, gorączka, pragnienie bez chęci picia.",
+    "pulse": "Sprężyste (strunowaty), śliskie i szybkie",
+    "tongue": "Czerwone boki z grubą tłustą żółtą powłoką"
+  },
+  {
+    "number": 27,
+    "name": "Niedobór Qi Serca",
+    "page": 12,
+    "raw": "Kołatanie serca, duszność, zmęczenie, pocenie się, bladość, rozdrażnienie, zmęczenie mentalne, zmartwienie, depresja, krótki oddech przy wysiłku, bezsenność, nieregularny puls.",
+    "pulse": "Słaby / Nieregularny",
+    "tongue": "Blady lub różowy"
+  },
+  {
+    "number": 28,
+    "name": "Niedobór Yang Serca",
+    "page": 12,
+    "raw": "Dyskomfort w okolicy serca, kołatanie serca, jasna blada twarz, zimne kończyny, uczucie zimna.",
+    "pulse": "Głęboki, słaby, powolny",
+    "tongue": "Blady, opuchnięty, wilgotny nalot"
+  },
+  {
+    "number": 29,
+    "name": "Niedobór Krwi w Sercu",
+    "page": 12,
+    "raw": "Kołatanie serca, matowa blada twarz i usta, bezsenność, sen przerywany, słaba pamięć, niepokój.",
+    "pulse": "Nitkowaty, wzburzony",
+    "tongue": "Jasny, cienki lekko suchy nalot"
+  },
+  {
+    "number": 30,
+    "name": "Niedobór Yin Serca",
+    "page": 12,
+    "raw": "Kołatanie serca, zaczerwienienie policzków, nocne poty, bezsenność (przewracanie się z boku na boku), suchość w ustach i gardle (nasila się w nocy), stan podgorączkowy, sen przerywany snami, niepokój psychiczny, uczucie dyskomfortu.",
+    "pulse": "Cienki, szybki, pływający",
+    "tongue": "Czerwona końcówka, głębokie pęknięcie na środku"
+  },
+  {
+    "number": 31,
+    "name": "Załamanie Yang Serca",
+    "page": 12,
+    "raw": "Kołatanie serca, duszność, obfite pocenie się, zimne kończyny, fioletowe usta, omdlenie, może być śpiączka.",
+    "pulse": "Węzełkowy",
+    "tongue": "Bardzo blady lub fioletowy"
+  },
+  {
+    "number": 32,
+    "name": "Flegma-Ogień w Sercu",
+    "page": 12,
+    "raw": "Bezsenność (całe noce na nogach), palpitacje, zamieszanie umysłowe, dezorientacja, niespójna mowa, zaburzenia świadomości, gorzki smak, niekontrolowane zachowanie.",
+    "pulse": "Pełny, szybki, śliski",
+    "tongue": "Czerwony, żółty tłusty nalot"
+  },
+  {
+    "number": 33,
+    "name": "Zastój krwi w Sercu",
+    "page": 12,
+    "raw": "Palpitacje, ból w okolicy serca promieniujący do lewej ręki, fioletowe usta i paznokcie, zimne dłonie.",
+    "pulse": "Węzełkowy",
+    "tongue": "Fioletowy"
+  },
+  {
+    "number": 34,
+    "name": "Ogień w Sercu",
+    "page": 13,
+    "raw": "Afty, owrzodzenia w jamie ustnej lub na języku, pragnienie, gorzki smak, pobudzenie, bezsenność (wcale nie śpi!), palpitacje, czerwona twarz, ciemny mocz (może występować krew).",
+    "pulse": "Pełny, duży, szybki",
+    "tongue": "Czerwony koniec, czerwone kropki, żółty nalot"
+  },
+  {
+    "number": 35,
+    "name": "Stagnacja / Niepokój Qi Serca",
+    "page": 13,
+    "raw": "Niepokój, problemy ze snem, rozdrażnienie, ból i owrzodzenie na języku, ból przy oddawaniu moczu.",
+    "pulse": "Słaby lub napięty",
+    "tongue": "Blady, biały nalot"
+  },
+  {
+    "number": 36,
+    "name": "Zbuntowane Qi Serca (Qi Ni)",
+    "page": 13,
+    "raw": "Idzie do góry do mózgu: palpitacje, niepokój, pobudzenie mentalne, drażliwość, bezsenność lub płytki sen, krótki oddech, ucisk w klatce, uczucie gorąca na twarzy lub w klatce, ziewanie, wzdychanie.",
+    "pulse": "Szybki, niemiarowy",
+    "tongue": "Czerwony koniec języka"
+  },
+  {
+    "number": 37,
+    "name": "Nadmiar i ogień w Jelicie Cienkim / Ogień Serca schodzący w dół",
+    "page": 15,
+    "raw": "Wynika z ognia serca. Niepokój psychiczny, wrzody na języku (afty), uczucie gorąca w klatce piersiowej, ból gardła, pragnienie zimnych napojów, ból brzucha, bolesne oddawanie moczu z ciemnym, skąpym moczem (często chroniczne śródmiąższowe zapalenie pęcherza).",
+    "pulse": "Pełny, duży i szybki",
+    "tongue": "Czerwony z czerwienią wyraźną na czubku, żółty nalot u nasady"
+  },
+  {
+    "number": 38,
+    "name": "Niedobór Qi Jelita Cienkiego",
+    "page": 15,
+    "raw": "Luźny stolec, wzdęcia z głośną perystaltyką, tępy ból podbrzusza (może być z kolką), wielomocz, poprawa po ciepłych napojach/pokarmach/okładach.",
+    "pulse": "Słaby, cienki",
+    "tongue": "Blady, biały nalot"
+  },
+  {
+    "number": 39,
+    "name": "Niedobór Qi Śledziony",
+    "page": 17,
+    "raw": "Słaby apetyt, wzdęcia po posiłkach, luźny stolec, zmęczenie i osłabienie kończyn, zmęczenie i blada twarz, nudności, wymioty, brak pragnienia, odczucie zimna w brzuchu, ogólna ociężałość, pełność w brzuchu i klatce, gęsta plwocina, białe upławy, mocz kropelkowy, wybroczyny.",
+    "pulse": "Słaby",
+    "tongue": "Blady z odciskami zębów"
+  },
+  {
+    "number": 40,
+    "name": "Niedobór Yang Śledziony",
+    "page": 17,
+    "raw": "Słaby apetyt, luźny stolec (wodnisty), wzdęcia, blada matowa twarz, zimne kończyny i ciało, obrzęki.",
+    "pulse": "Głęboki, słaby i wolny",
+    "tongue": "Blady, spuchnięty z wilgotnym nalotem"
+  },
+  {
+    "number": 41,
+    "name": "Śledziona nie kontroluje Krwi",
+    "page": 17,
+    "raw": "Plamica, plamki krwi pod skórą, krew w moczu lub stolcu, obfite miesiączki, krwawiące dziąsła, słaby apetyt, wzdęcia, zmęczenie.",
+    "pulse": "Słaby i cienki",
+    "tongue": "Blady"
+  },
+  {
+    "number": 42,
+    "name": "Niedobór Qi Śledziony z Wilgocią",
+    "page": 17,
+    "raw": "Słaby apetyt, zmęczenie, wzdęcia, luźne stolce, uczucie ciężkości kończyn i głowy, nudności, uczucie pełności w okolicy żołądka.",
+    "pulse": "Śliski, słaby",
+    "tongue": "Blady lub różowy z grubą białą tłustą powłoką"
+  },
+  {
+    "number": 43,
+    "name": "Zimno – Wilgotno w Śledzionie",
+    "page": 17,
+    "raw": "Ciężkie kończyny i głowa, nudności, słodki smak w ustach, brak pragnienia, nadmierne białe upławy, zmęczenie, luźne stolce, zimny żołądek.",
+    "pulse": "Śliski i napięty",
+    "tongue": "Gruby, tłusty biały nalot"
+  },
+  {
+    "number": 44,
+    "name": "Stagnacja Qi Śledziony",
+    "page": 17,
+    "raw": "Krótkie miesiączki z plamieniem, krwawienia, wzdęcia brzucha, nieregularny cykl.",
+    "pulse": "Słaby lub napięty",
+    "tongue": "Blady, biały nalot"
+  },
+  {
+    "number": 45,
+    "name": "Zbuntowane Qi Śledziony (Opadanie Qi / Qi Ni)",
+    "page": 17,
+    "raw": "Idzie do dołu (opada): słaby apetyt, wzdęcia i pełność po posiłku, luźny stolec lub biegunka z nietrawionym pokarmem, przewlekłe zmęczenie, ociężałość kończyn, słaby głos, mgła umysłowa, wypadanie narządów (żołądek, pęcherz, macica, odbytnica), wędrująca nerka, uczucie opadania w podbrzuszu, częstomocz, zawroty głowy, nieostre widzenie.",
+    "pulse": "Słaby",
+    "tongue": "Blady, opuchnięty z odciskami zębów"
+  },
+  {
+    "number": 46,
+    "name": "Zimno w Żołądku",
+    "page": 19,
+    "raw": "Nagły ból w nadbrzuszu, zimne ciało, wymioty z przezroczystymi płynami, nie może pić zimnych napojów bo wymiotuje.",
+    "pulse": "Pływający, napięty",
+    "tongue": "Cienka biała powłoka w centrum"
+  },
+  {
+    "number": 47,
+    "name": "Ogień / Żar w Żołądku",
+    "page": 19,
+    "raw": "Pieczenie w nadbrzuszu, pragnienie z potrzebą zimnych płynów, stałe uczucie głodu, nieświeży oddech, obrzęk i krwawienie z dziąseł, zaparcia, refluks, nudności, wymioty. Afty, pleśniawki, nieustanny głód.",
+    "pulse": "Pełny, szybki",
+    "tongue": "Czerwony z żółtym suchym nalotem"
+  },
+  {
+    "number": 48,
+    "name": "Zatrzymanie Żywności w Żołądku",
+    "page": 19,
+    "raw": "Wzdęcia, uczucie pełności w okolicy nadbrzusza, głównie nagły ból, zimne ciało, wymioty z przezroczystymi płynami, nudności, nieświeży oddech, kwaśny refluks (odbijanie), bezsenność.",
+    "pulse": "Pełne, śliskie",
+    "tongue": "Tłusty nalot"
+  },
+  {
+    "number": 49,
+    "name": "Zastój Krwi w Żołądku",
+    "page": 19,
+    "raw": "Ostry, kłujący ból w żołądku (gorszy przy zimnie lub nacisku), ból po posiłkach, wymioty ciemną krwią, krew w stolcu.",
+    "pulse": "Napięty, przerywany",
+    "tongue": "Fioletowy z fioletowymi plamkami w centrum"
+  },
+  {
+    "number": 50,
+    "name": "Niedobór Qi Żołądka",
+    "page": 19,
+    "raw": "Brak apetytu, brak smaku, brak łaknienia, zmęczenie (szczególnie rano), osłabienie kończyn, blada twarz, bekania, luźny stolec, przelewanie w brzuchu, ucisk i pełność w górnej części brzucha.",
+    "pulse": "Słaby",
+    "tongue": "Blady lub różowy"
+  },
+  {
+    "number": 51,
+    "name": "Niedobór Yang Żołądka",
+    "page": 19,
+    "raw": "Ból w nadbrzuszu (nasila się po wypróżnieniu, ustępuje po jedzeniu lub masażu), preferencja ciepłych potraw i napojów, brak pragnienia oraz wymioty przejrzystymi płynami, zimne kończyny, zmęczenie.",
+    "pulse": "Słabe, głębokie i wolne",
+    "tongue": "Blady, spuchnięty z wilgotnym nalotem"
+  },
+  {
+    "number": 52,
+    "name": "Stagnacja Qi Żołądka",
+    "page": 19,
+    "raw": "Rozdrażnienie, nerwowość, ból brzucha, uczucie nadmiernego ciepła, pieczenie, rozszerzający się ból podsercowy, wzdęcia, zaparcia.",
+    "pulse": "Napięty / Strunowaty",
+    "tongue": "Blady, biały nalot"
+  },
+  {
+    "number": 53,
+    "name": "Zbuntowane Qi Żołądka (Qi Ni)",
+    "page": 19,
+    "raw": "Idzie patologicznie do góry: nudności, wymioty, odbijanie, refluks, czkawka, uczucie pełności lub rozpierania w nadbrzuszu, dyskomfort w klatce lub gardle, brak apetytu, nudności po stresie.",
+    "pulse": "Śliski lub napięty",
+    "tongue": "Gruby lub tłusty nalot"
+  },
+  {
+    "number": 54,
+    "name": "Niedobór Yin Żołądka",
+    "page": 19,
+    "raw": "Brak apetytu, pragnienie zimnych napojów (picie małymi łykami), suchość w ustach nasilająca się w nocy, tępy ból żołądka, wzdęcia, zaparcia, suche stolce.",
+    "pulse": "Cienki, szybki",
+    "tongue": "Czerwony, pozbawiony nalotu, łuszczący się w centrum"
+  },
+  {
+    "number": 55,
+    "name": "Zimny Wiatr atakuje Płuca",
+    "page": 21,
+    "raw": "Kaszel, swędzenie gardła, katar z przezroczystą wodnistą wydzieliną, kichanie, niechęć do zimna, ból ciała, ból głowy w okolicy potylicznej.  Początkowe stadium przeziębienia, grypy lub infekcji wirusowej dróg oddechowych. ",
+    "pulse": "Unoszący się, napięty",
+    "tongue": "Normalny, cienki biały nalot"
+  },
+  {
+    "number": 56,
+    "name": "Gorący Wiatr atakuje Płuca",
+    "page": 21,
+    "raw": "Kaszel, ból gardła, katar z żółtą wydzieliną, pragnienie, lekkie pocenie się, niechęć do zimna, gorączka, ból głowy. Początkowe stadium ostrego przeziębienia, grypy, zapalenia krtani lub oskrzeli o charakterze zapalnym",
+    "pulse": "Pływający, szybki",
+    "tongue": "Czerwony z cienkim żółtym nalotem"
+  },
+  {
+    "number": 57,
+    "name": "Wiatr i Wilgoć atakuje Płuca",
+    "page": 21,
+    "raw": "Nagły obrzęk oczu i twarzy, szybko rozprzestrzeniający się na całe ciało, jasna cera, skąpy jasny mocz, kaszel. Napad Zewnętrznego Wiatru z towarzyszącym nagromadzeniem Wilgoci lub Śluzu w Płucach), to stan, w którym zewnętrzna infekcja (np. przewianie, przeziębienie) nakłada się na osłabioną wcześniej Śledzionę.  Śledziona produkuje nadmiar wilgoci (śluzu), a nagły podmuch Wiatru „wpycha” to błoto prosto do Płuc, blokując drogi oddechowe.",
+    "pulse": "Pływający, śliski",
+    "tongue": "Biały wilgotny nalot"
+  },
+  {
+    "number": 58,
+    "name": "Gorąca flegma w Płucach",
+    "page": 21,
+    "raw": "Kaszel szczekający z obitą żółtozieloną, gęstą, cuchnącą wydzieliną, duszności, astma, krótki oddech, duszności w klatce piersiowej. Odpowiada to zaawansowanemu stadium ostrego zapalenia oskrzeli, zapalenia płuc lub bakteryjnej infekcji oddechowej",
+    "pulse": "Śliski, szybki, pełny",
+    "tongue": "Czerwony, gęsty lepki żółty nalot"
+  },
+  {
+    "number": 59,
+    "name": "Płynna flegma w Płucach",
+    "page": 21,
+    "raw": "Kaszel, chlupotanie w klatce piersiowej, duszność, krótki oddech, wymioty, biała, wodnista, pienista plwocina, dreszcze. Zimny Śluz w Płucach – Han Tan lub Zatrzymanie Płynów w Płucach – Tan Yin) to stan, w którym w układzie oddechowym gromadzi się duża ilość rzadkiej, chłodnej wydzieliny",
+    "pulse": "Słaby, śliski, pływający",
+    "tongue": "Blady, biały lepki gruby nalot"
+  },
+  {
+    "number": 60,
+    "name": "Niedobór Yin Płuc",
+    "page": 21,
+    "raw": "Suchy kaszel z niewielką ilością śluzu lub krwi w śluzie, niska gorączka, chrypka, ochrypły głos, zaczerwienione policzki, suchość w ustach i gardle.",
+    "pulse": "Cienki, szybki",
+    "tongue": "Czerwony, łuszczący, popękany"
+  },
+  {
+    "number": 61,
+    "name": "Niedobór płynów w Płucach",
+    "page": 21,
+    "raw": "Suchy kaszel, sucha skóra, suchość w gardle i ustach, pragnienie.",
+    "pulse": "Słaby",
+    "tongue": "Suchy nalot, popękany"
+  },
+  {
+    "number": 62,
+    "name": "Niedobór Qi Płuc (Ogólny)",
+    "page": 22,
+    "raw": "Krótki oddech, duszność, kaszel z wodnistą plwociną, słaby głos, cichy, pot w ciągu dnia, blada twarz, łatwe przeziębianie się, zmęczenie.",
+    "pulse": "Słaby",
+    "tongue": "Blady lub różowy"
+  },
+  {
+    "number": 63,
+    "name": "Stagnacja / Nadmiar Qi Płuc",
+    "page": 22,
+    "raw": "Astma, suchy kaszel, uczucie ucisku i rozpierania w klatce piersiowej, podrażnienie gardła. Najczęściej jest to wynik silnego stresu, tłumionego żalu, smutku lub zamartwiania się (Zastój Qi Wątroby uciskający klatkę piersiową) albo fizycznej blokady wywołanej przez uwięziony śluz (Flegmę)",
+    "pulse": "Napięty / Strunowaty",
+    "tongue": "Normalny lub lekko blady"
+  },
+  {
+    "number": 64,
+    "name": "Zbuntowane Qi Płuc (Qi Ni)",
+    "page": 22,
+    "raw": "Idzie patologicznie do góry: kaszel lub astma, świszczący oddech, płytki szybki oddech, duszność, ucisk w klatce, potrzeba chrząkania, chrypka, flegma, zmęczenie, samoistne poty, nadwrażliwość na wiatr i zimno.",
+    "pulse": "Słaby lub szybki",
+    "tongue": "Blady lub zaczerwieniony"
+  },
+  {
+    "number": 65,
+    "name": "Ciepło w Jelicie Grubym",
+    "page": 24,
+    "raw": "Zaparcia, pieczenie w ustach, pieczenie w okolicy odbytu, piekący i spuchnięty odbyt, skąpy ciemny mocz, suchy język.",
+    "pulse": "Pełny, szybki",
+    "tongue": "Gruby żółty nalot"
+  },
+  {
+    "number": 66,
+    "name": "Wilgoć – Ciepło w Jelicie Grubym",
+    "page": 24,
+    "raw": "Biegunka (silna i śmierdząca), ból brzucha, śluz lub krew w stolcu, pieczenie odbytu, gorączka, pocenie się, ciężkie kończyny, pragnienie bez chęci picia, skąpe ciemne oddawanie moczu. W medycynie zachodniej syndrom ten idealnie odpowiada ostrym zatruciom pokarmowym, grypie żołądkowej, bakteryjnym infekcjom jelitowym (np. czerwonka, salmonella) oraz zaostrzeniom chorób zapalnych jelit (IBS, wrzodziejące zapalenie jelita grubego, choroba Leśniowskiego-Crohna)",
+    "pulse": "Śliski, szybki",
+    "tongue": "Czerwony język z żółtym nalotem"
+  },
+  {
+    "number": 67,
+    "name": "Zastój krwi w Jelicie Grubym",
+    "page": 24,
+    "raw": "Ból brzucha nasilający się pod naciskiem, zaparcie, pieczenie w odbycie, wzdęcia, podwyższona gorączka, wymioty, majaczenie. W medycynie zachodniej stan ten najczęściej odpowiada zaawansowanym hemoroidom (zwłaszcza zakrzepowym), przewlekłemu zapaleniu jelit (wrzodziejące zapalenie jelita grubego, choroba Leśniowskiego-Crohna) z owrzodzeniami i silnym bólem, uchyłkowatości jelit, pęknięciom odbytu, a w stanach ostrych – nawet niedokrwieniu jelit.",
+    "pulse": "Pełne, głębokie",
+    "tongue": "Czerwono-fioletowy"
+  },
+  {
+    "number": 68,
+    "name": "Zimno w Jelicie Grubym",
+    "page": 24,
+    "raw": "Stan ostry z nagłym bólem brzucha, biegunką i zimnym obszarem brzucha. Najczęściej rozwija się w wyniku Niedoboru Yang Śledziony i Nerek",
+    "pulse": "Głęboki, napięty, wolny",
+    "tongue": "Gęsta biała powłoka u nasady"
+  },
+  {
+    "number": 69,
+    "name": "Sucho w Jelicie Grubym",
+    "page": 24,
+    "raw": "Suche stolce, trudności w oddawaniu stolca, suchość w ustach i skórze, chude ciało.",
+    "pulse": "Cienki",
+    "tongue": "Suchy, popękany, bez nalotu"
+  },
+  {
+    "number": 70,
+    "name": "Niedobór Yang Śledziony i Jelita Grubego",
+    "page": 24,
+    "raw": "Luźne stolce (jak kał kaczy) i bulgotanie w brzuchu (przelewanie), zimne ciało i kończyny.",
+    "pulse": "Głęboki, słaby, powolny",
+    "tongue": "Blady, opuchnięty, wilgotny nalot"
+  },
+  {
+    "number": 71,
+    "name": "Stagnacja Qi Jelita Grubego",
+    "page": 24,
+    "raw": "Zatwardzenie, kał bobkowaty, ból i rozciąganie brzucha.",
+    "pulse": "Napięty / Strunowaty",
+    "tongue": "Blady lub normalny, biały nalot"
+  },
+  {
+    "number": 72,
+    "name": "Niedobór Qi Jelita Grubego",
+    "page": 24,
+    "raw": "Spowolnione trawienie, ból brzucha, zaparcia, bolesne biegunki, poprawa po ciepłych napojach/pokarmach/okładach.",
+    "pulse": "Słaby",
+    "tongue": "Blady, biały nalot"
+  },
+  {
+    "number": 73,
+    "name": "Niedobór Yang Jelita Grubego",
+    "page": 24,
+    "raw": "Luźne stolce (jak kaczego kału), tępy ból brzucha, bulgotanie w brzuchu, jasny mocz, zimne kończyny i ciało, biegunka (często z Niedoborem Yang Śledziony).",
+    "pulse": "Głębokie, cienkie",
+    "tongue": "Blady, spuchnięty"
+  },
+  {
+    "number": 74,
+    "name": "Ogólny Niedobór Qi (Qi Xu)",
+    "page": 26,
+    "raw": "Bladość, nieostre widzenie, krótki oddech, niechęć do mówienia, słaby głos, znużenie, słabość kończyn, spontaniczne poty, objawy gorsze po przepracowaniu, odczuwanie zimna. Za dużo zimna, za mało ciepła/energii.",
+    "pulse": "Anemiczny, słaby",
+    "tongue": "Blady język, biały nalot"
+  },
+  {
+    "number": 75,
+    "name": "Niedobór Qi Pierwotnego (Yuan Qi)",
+    "page": 26,
+    "raw": "Słaba odporność, krótki oddech, słaby apetyt, wychudzenie, stopniowe zaburzenie funkcji rozrodczych.",
+    "pulse": "Głęboki, słaby",
+    "tongue": "Blady język, biały nalot"
+  },
+  {
+    "number": 76,
+    "name": "Niedobór Qi Pokarmowego (Gu Qi)",
+    "page": 26,
+    "raw": "Niedobór krwi, blada cera, osłabienie, znużenie, bezsenność, palpitacje, słaby wzrok, skąpe krwawienie miesiączkowe lub jego brak, biegunki, zaparcia, przelewanie się w brzuchu.",
+    "pulse": "Cienki, słaby",
+    "tongue": "Blady język, biały nalot"
+  },
+  {
+    "number": 77,
+    "name": "Niedobór Qi Obronnego (Wei Qi)",
+    "page": 26,
+    "raw": "Słaba odporność, spontaniczne poty, skłonność do natychmiastowych i częstych infekcji.",
+    "pulse": "Słaby, pływający",
+    "tongue": "Blady język, cienki biały nalot"
+  },
+  {
+    "number": 78,
+    "name": "Niedobór Qi Nerek, Śledziony i Płuc",
+    "page": 26,
+    "raw": "Znużenie, palpitacje, słabe krążenie, purpurowe wargi i koniuszki palców, słaba odporność, spontaniczne poty.",
+    "pulse": "Głęboki, słaby i nitkowaty",
+    "tongue": "Blady, lekko fioletowawy"
+  },
+  {
+    "number": 79,
+    "name": "Ogólna Stagnacja / Nadmiar Qi",
+    "page": 26,
+    "raw": "Zawroty, nieostre widzenie, krótki oddech, znużenie, rozszerzające się zaburzenia żołądkowo-jelitowe, chroniczna biegunka lub czerwonka, bądź wypadanie narządów, wędrująca nerka.",
+    "pulse": "Napięty / Strunowaty",
+    "tongue": "Blady język, biały nalot"
+  },
+  {
+    "number": 80,
+    "name": "Załamanie Qi (Qi Tuo)",
+    "page": 26,
+    "raw": "Stan krytyczny: anemiczny, słaby, krótki oddech, obfite zimne poty, zamknięte oczy, otwarte usta, blada twarz, niemożność utrzymania moczu i stolca.",
+    "pulse": "Nitkowaty, konający, słaby",
+    "tongue": "Blady, miękki"
+  }
+]
