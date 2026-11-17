@@ -39,3 +39,13 @@ Projekt jest stroną statyczną. Konfiguracja vercel.json ustawia preset Other, 
 Zaimportuj repozytorium `barykonkretnie-ship-it/apka_tcm` w Vercel, wybierz katalog główny repozytorium i Deploy. Przy połączeniu z GitHub kolejne wdrożenia mogą uruchamiać się po pushu.
 
 Flaga --web-only nie tworzy pobieralnych plików w katalogu nadrzędnym. Katalogi źródłowych ekstrakcji nie są publicznymi zasobami witryny. Gra i katalog wzorców są publiczne po wdrożeniu; postępy nadal pozostają wyłącznie w przeglądarce użytkownika.
+
+## Moduł: Zioła
+
+Trzy quizy (wielokrotny wybór, do 100 pkt za pytanie): **Dopasuj zioło do narządu**, **Wybierz zioła do narządu** i **Połącz zioło z meridianem**, oraz przeglądarka **Baza ziół**. Każde zioło jest pokazywane z nazwą pinyin, polską i łacińską (mniejszą czcionką).
+
+- `content/ziola-baza-meandqi.md` — źródłowa baza 20 ziół (karty + mapa narząd–niedobór).
+- `content/herbs.json` — dane quizów: karty z pliku bazy, narządy z mapy (oraz z kart, gdy mapa ich nie wymienia) i meridiany z pola „Channels Entered” monografii Me & Qi (odczyt 17.11.2026).
+- `herb-engine.js` — logika quizów; `npm run build` generuje z niej i z danych plik `public/herbs.js`.
+
+Narząd, którego meridian zioło wchodzi według Me & Qi, ale którego nie ma w mapie narządów, nie jest liczony jako błąd w quizie „zioło → narząd” i nie pojawia się jako błędna odpowiedź w quizie „narząd → zioła”.
