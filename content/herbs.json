@@ -1,951 +1,573 @@
-[
-  {
-    "id": "shan-yao",
-    "number": 1,
-    "pinyin": "Shan Yao",
-    "polish": "pochrzyn chiński",
-    "latin": "Dioscorea opposita",
-    "latinNote": "Dioscorea opposita (nazwa stosowana przez Me & Qi); w nazewnictwie spotyka się również Dioscorea polystachya",
-    "part": "podziemna bulwa; w tradycyjnej nazwie farmakognostycznej Rhizoma Dioscoreae określana jako kłącze",
-    "associations": "Qi Nerek, Qi Śledziony, łagodne odżywianie Yin, zabezpieczanie Jing",
-    "actions": "wzmacnia Śledzionę, Płuca i Nerki; łączy wzmacnianie Qi z odżywianiem Yin; pomaga zabezpieczać Esencję",
-    "distinction": "nie jest tak osuszający jak Bai Zhu ani tak ogrzewający jak typowe toniki Yang Nerek",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Wzmacnianie Qi Nerek",
-          "Zabezpieczanie Jing przed utratą"
-        ]
-      },
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Qi i Yin Śledziony"
-        ]
-      },
-      {
-        "organ": "Płuca",
-        "directions": [
-          "Z karty zioła: wzmacnia Śledzionę, Płuca i Nerki"
-        ]
-      }
-    ],
-    "meridians": [
-      "Śledziona",
-      "Płuca",
-      "Nerki"
-    ],
-    "temperature": "neutralna",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/shan-yao",
-      "channels": [
-        "Spleen",
-        "Lungs",
-        "Kidneys"
-      ],
-      "temperature": "Neutral",
-      "taste": "Sweet (甘 gān)"
+{
+  "patterns": [
+    {
+      "id": "p01",
+      "name": "Niedobór Qi Nerek",
+      "organ": "Nerki",
+      "section": "Nerki (Shen)",
+      "family": "qi-yang",
+      "patternRef": "k01",
+      "association": "wzmacnianie funkcji Nerek i dolnych pleców",
+      "note": "Me & Qi określa Shu Di Huang jako jedno z najważniejszych ziół odżywiających Yin Nerek, a Zhi Fu Zi jako wyjątkowo silny surowiec ogrzewający Yang.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/shan-yao"
-    ]
-  },
-  {
-    "id": "tu-si-zi",
-    "number": 2,
-    "pinyin": "Tu Si Zi",
-    "polish": "kanianka chińska",
-    "latin": "Cuscuta chinensis",
-    "latinNote": "Cuscuta chinensis",
-    "part": "nasiona",
-    "associations": "Nerki, Jing, wspieranie Yang i Yin",
-    "actions": "wspiera Qi Nerek i Esencję, wzmacnia Nerki oraz zabezpiecza Jing przed utratą",
-    "distinction": "łączy działanie uzupełniające z zatrzymującym; nie należy sprowadzać go wyłącznie do silnego ogrzewania",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Wzmacnianie Qi Nerek",
-          "Zabezpieczanie Jing przed utratą"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Nerki",
-      "Śledziona"
-    ],
-    "temperature": "neutralna",
-    "taste": [
-      "ostry",
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/tu-si-zi",
-      "channels": [
-        "Liver",
-        "Kidneys",
-        "Spleen"
-      ],
-      "temperature": "Neutral",
-      "taste": "Acrid / Pungent (辛 xīn), Sweet (甘 gān)"
+    {
+      "id": "p02",
+      "name": "Niedobór Yin Nerek",
+      "organ": "Nerki",
+      "section": "Nerki (Shen)",
+      "family": "yin-krew-jing",
+      "patternRef": "k03",
+      "association": "odżywianie Yin i Esencji",
+      "note": "Me & Qi określa Shu Di Huang jako jedno z najważniejszych ziół odżywiających Yin Nerek, a Zhi Fu Zi jako wyjątkowo silny surowiec ogrzewający Yang.",
+      "leading": "Shu Di Huang"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/tu-si-zi"
-    ]
-  },
-  {
-    "id": "shu-di-huang",
-    "number": 3,
-    "pinyin": "Shu Di Huang",
-    "polish": "rehmannia kleista, korzeń preparowany",
-    "latin": "Rehmannia glutinosa",
-    "latinNote": "Rehmannia glutinosa",
-    "part": "preparowany korzeń",
-    "associations": "Yin Nerek, Jing, odżywianie Krwi",
-    "actions": "odżywia Yin Nerek, uzupełnia Esencję i odżywia Krew",
-    "distinction": "Shu Di Huang to postać preparowana; nie utożsamiaj jej z Sheng Di Huang, czyli postacią niepreparowaną o innym profilu działania",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Odżywianie Yin Nerek",
-          "Uzupełnianie Jing Nerek"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Nerki"
-    ],
-    "temperature": "lekko ciepła",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/shu-di-huang",
-      "channels": [
-        "Liver",
-        "Kidneys"
-      ],
-      "temperature": "Slightly Warm",
-      "taste": "Sweet (甘 gān)"
+    {
+      "id": "p03",
+      "name": "Niedobór Yang Nerek",
+      "organ": "Nerki",
+      "section": "Nerki (Shen)",
+      "family": "qi-yang",
+      "patternRef": "k02",
+      "association": "silne ogrzewanie",
+      "note": "Me & Qi określa Shu Di Huang jako jedno z najważniejszych ziół odżywiających Yin Nerek, a Zhi Fu Zi jako wyjątkowo silny surowiec ogrzewający Yang.",
+      "leading": "Zhi Fu Zi"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/shu-di-huang"
-    ]
-  },
-  {
-    "id": "gou-qi-zi",
-    "number": 4,
-    "pinyin": "Gou Qi Zi",
-    "polish": "kolcowój pospolity; owoce goji",
-    "latin": "Lycium barbarum",
-    "latinNote": "Lycium barbarum",
-    "part": "owoce",
-    "associations": "Yin Wątroby i Nerek, Jing",
-    "actions": "odżywia Yin Wątroby i Nerek, wspiera Esencję i oczy w ujęciu TCM",
-    "distinction": "nazwa handlowa „goji” sama w sobie nie określa jednoznacznie gatunku i jakości surowca",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Odżywianie Yin Nerek",
-          "Uzupełnianie Jing Nerek"
-        ]
-      },
-      {
-        "organ": "Wątroba",
-        "directions": [
-          "Yin Wątroby"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Nerki",
-      "Płuca"
-    ],
-    "temperature": "neutralna",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/gou-qi-zi",
-      "channels": [
-        "Liver",
-        "Kidneys",
-        "Lungs"
-      ],
-      "temperature": "Neutral",
-      "taste": "Sweet (甘 gān)"
+    {
+      "id": "p04",
+      "name": "Niedobór Jing Nerek",
+      "organ": "Nerki",
+      "section": "Nerki (Shen)",
+      "family": "yin-krew-jing",
+      "patternRef": "k04",
+      "association": "uzupełnianie i zabezpieczanie Esencji",
+      "note": "Me & Qi określa Shu Di Huang jako jedno z najważniejszych ziół odżywiających Yin Nerek, a Zhi Fu Zi jako wyjątkowo silny surowiec ogrzewający Yang.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/gou-qi-zi"
-    ]
-  },
-  {
-    "id": "nu-zhen-zi",
-    "number": 5,
-    "pinyin": "Nu Zhen Zi",
-    "polish": "ligustr błyszczący",
-    "latin": "Ligustrum lucidum",
-    "latinNote": "Ligustrum lucidum",
-    "part": "owoce",
-    "associations": "Yin Wątroby i Nerek",
-    "actions": "odżywia Yin Wątroby i Nerek; ma kierunek chłodzący, uwzględniany przy towarzyszącym niedoborowym Gorącu",
-    "distinction": "",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Odżywianie Yin Nerek"
-        ]
-      },
-      {
-        "organ": "Wątroba",
-        "directions": [
-          "Yin Wątroby"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Nerki"
-    ],
-    "temperature": "chłodna",
-    "taste": [
-      "słodki",
-      "gorzki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/nu-zhen-zi",
-      "channels": [
-        "Liver",
-        "Kidneys"
-      ],
-      "temperature": "Cool",
-      "taste": "Sweet (甘 gān), Bitter (苦 kǔ)"
+    {
+      "id": "p05",
+      "name": "Niedobór Qi Śledziony",
+      "organ": "Śledziona",
+      "section": "Śledziona (Pi)",
+      "family": "qi-yang",
+      "patternRef": "k39",
+      "association": "wzmacnianie i transformacja",
+      "note": "",
+      "leading": "Huang Qi"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/nu-zhen-zi"
-    ]
-  },
-  {
-    "id": "yin-yang-huo",
-    "number": 6,
-    "pinyin": "Yin Yang Huo",
-    "polish": "epimedium",
-    "latin": "Epimedium brevicornu",
-    "latinNote": "Epimedium brevicornu oraz inne gatunki wykorzystywane jako ten surowiec",
-    "part": "liście; Me & Qi używa również szerszego określenia części nadziemnych",
-    "associations": "Yang Nerek, ścięgna i kości",
-    "actions": "ogrzewa i wzmacnia Yang Nerek, wspiera ścięgna i kości, usuwa Wiatr-Wilgoć",
-    "distinction": "nie zakładaj, że każdy gatunek ogrodowego epimedium jest odpowiednikiem surowca TCM",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Wzmacnianie Yang Nerek"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Nerki"
-    ],
-    "temperature": "ciepła",
-    "taste": [
-      "ostry",
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/yin-yang-huo",
-      "channels": [
-        "Liver",
-        "Kidneys"
-      ],
-      "temperature": "Warm",
-      "taste": "Acrid / Pungent (辛 xīn), Sweet (甘 gān)"
+    {
+      "id": "p06",
+      "name": "Niedobór Yang Śledziony",
+      "organ": "Śledziona",
+      "section": "Śledziona (Pi)",
+      "family": "qi-yang",
+      "patternRef": "k40",
+      "association": "ogrzewanie środkowego ogrzewacza",
+      "note": "",
+      "leading": "Gan Jiang"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/yin-yang-huo"
-    ]
-  },
-  {
-    "id": "ba-ji-tian",
-    "number": 7,
-    "pinyin": "Ba Ji Tian",
-    "polish": "morinda lekarska",
-    "latin": "Morinda officinalis",
-    "latinNote": "Morinda officinalis",
-    "part": "korzeń",
-    "associations": "Yang Nerek, ścięgna i kości",
-    "actions": "wzmacnia Yang Nerek, wspiera ścięgna i kości, usuwa Wiatr-Wilgoć",
-    "distinction": "Me & Qi opisuje ją jako łagodniejszą od silnie gorących surowców, takich jak Fu Zi czy Rou Gui; nie oznacza to uniwersalnej przydatności",
-    "organs": [
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Wzmacnianie Yang Nerek"
-        ]
-      }
-    ],
-    "meridians": [
-      "Nerki",
-      "Wątroba"
-    ],
-    "temperature": "lekko ciepła",
-    "taste": [
-      "ostry",
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/ba-ji-tian",
-      "channels": [
-        "Kidneys",
-        "Liver"
-      ],
-      "temperature": "Slightly Warm",
-      "taste": "Acrid / Pungent (辛 xīn), Sweet (甘 gān)"
+    {
+      "id": "p07",
+      "name": "Niedobór Śledziony z Wilgocią",
+      "organ": "Śledziona",
+      "section": "Śledziona (Pi)",
+      "family": "wilgoć",
+      "patternRef": "k42",
+      "association": "osuszanie i odprowadzanie",
+      "note": "",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/ba-ji-tian"
-    ]
-  },
-  {
-    "id": "bai-zhu",
-    "number": 8,
-    "pinyin": "Bai Zhu",
-    "polish": "atraktylod wielkogłówkowy",
-    "latin": "Atractylodes macrocephala",
-    "latinNote": "Atractylodes macrocephala",
-    "part": "kłącze",
-    "associations": "Qi Śledziony i Wilgoć",
-    "actions": "wzmacnia Qi Śledziony i osusza Wilgoć",
-    "distinction": "mocniej osuszający niż Shan Yao lub Dang Shen; nie utożsamiaj z Cang Zhu",
-    "organs": [
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Qi Śledziony"
-        ]
-      }
-    ],
-    "meridians": [
-      "Śledziona",
-      "Żołądek"
-    ],
-    "temperature": "ciepła",
-    "taste": [
-      "gorzki",
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/bai-zhu",
-      "channels": [
-        "Spleen",
-        "Stomach"
-      ],
-      "temperature": "Warm",
-      "taste": "Bitter (苦 kǔ), Sweet (甘 gān)"
+    {
+      "id": "p08",
+      "name": "Stagnacja Qi Wątroby",
+      "organ": "Wątroba",
+      "section": "Wątroba (Gan)",
+      "family": "zastój",
+      "patternRef": "k13",
+      "association": "poruszanie Qi",
+      "note": "Szczególnie zapamiętaj Chai Hu i Xiang Fu dla stagnacji Qi Wątroby oraz Dang Gui i Bai Shao dla niedoboru Krwi Wątroby. Me & Qi wymienia je wśród podstawowych surowców dla tych wzorców.",
+      "leading": "Chai Hu"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/bai-zhu"
-    ]
-  },
-  {
-    "id": "dang-shen",
-    "number": 9,
-    "pinyin": "Dang Shen",
-    "polish": "dzwonkowiec kosmaty",
-    "latin": "Codonopsis pilosula",
-    "latinNote": "Codonopsis pilosula; istnieją również inne źródła gatunkowe Dang Shen",
-    "part": "korzeń",
-    "associations": "Qi Śledziony, Żołądka i Płuc",
-    "actions": "wzmacnia Qi, wspiera wytwarzanie płynów i odżywienie Krwi",
-    "distinction": "łagodniejszy od Ren Shen; nie jest jego automatycznym zamiennikiem we wszystkich zastosowaniach",
-    "organs": [
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Qi Śledziony"
-        ]
-      },
-      {
-        "organ": "Żołądek",
-        "directions": [
-          "Qi Żołądka"
-        ]
-      },
-      {
-        "organ": "Płuca",
-        "directions": [
-          "Qi Płuc"
-        ]
-      }
-    ],
-    "meridians": [
-      "Śledziona",
-      "Płuca"
-    ],
-    "temperature": "neutralna",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/dang-shen",
-      "channels": [
-        "Spleen",
-        "Lungs"
-      ],
-      "temperature": "Neutral",
-      "taste": "Sweet (甘 gān)"
+    {
+      "id": "p09",
+      "name": "Niedobór Krwi Wątroby",
+      "organ": "Wątroba",
+      "section": "Wątroba (Gan)",
+      "family": "yin-krew-jing",
+      "patternRef": "k21",
+      "association": "odżywianie Krwi",
+      "note": "Szczególnie zapamiętaj Chai Hu i Xiang Fu dla stagnacji Qi Wątroby oraz Dang Gui i Bai Shao dla niedoboru Krwi Wątroby. Me & Qi wymienia je wśród podstawowych surowców dla tych wzorców.",
+      "leading": "Dang Gui"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/dang-shen"
-    ]
-  },
-  {
-    "id": "huang-qi",
-    "number": 10,
-    "pinyin": "Huang Qi",
-    "polish": "traganek błoniasty",
-    "latin": "Astragalus membranaceus",
-    "latinNote": "Astragalus membranaceus — nazwa stosowana w Me & Qi; w obrocie występują także źródła związane z Astragalus mongholicus",
-    "part": "korzeń",
-    "associations": "Qi Płuc i Śledziony, Wei Qi, opadanie Qi",
-    "actions": "wzmacnia Qi Płuc i Śledziony, wspiera ochronne Wei Qi i unosi opadające Qi",
-    "distinction": "nie myl Huang Qi z Huang Bai; to różne surowce",
-    "organs": [
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Qi Śledziony"
-        ]
-      },
-      {
-        "organ": "Płuca",
-        "directions": [
-          "Qi Płuc"
-        ]
-      }
-    ],
-    "meridians": [
-      "Śledziona",
-      "Płuca"
-    ],
-    "temperature": "lekko ciepła",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/huang-qi",
-      "channels": [
-        "Spleen",
-        "Lungs"
-      ],
-      "temperature": "Slightly Warm",
-      "taste": "Sweet (甘 gān)"
+    {
+      "id": "p10",
+      "name": "Niedobór Yin Wątroby",
+      "organ": "Wątroba",
+      "section": "Wątroba (Gan)",
+      "family": "yin-krew-jing",
+      "patternRef": "k18",
+      "association": "odżywianie Yin i nawilżanie",
+      "note": "Szczególnie zapamiętaj Chai Hu i Xiang Fu dla stagnacji Qi Wątroby oraz Dang Gui i Bai Shao dla niedoboru Krwi Wątroby. Me & Qi wymienia je wśród podstawowych surowców dla tych wzorców.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/huang-qi"
-    ]
-  },
-  {
-    "id": "gan-jiang",
-    "number": 11,
-    "pinyin": "Gan Jiang",
-    "polish": "imbir lekarski, suszone kłącze",
-    "latin": "Zingiber officinale",
-    "latinNote": "Zingiber officinale",
-    "part": "suszone kłącze",
-    "associations": "ogrzewanie Śledziony i Żołądka, Zimno Środkowego Ogrzewacza",
-    "actions": "ogrzewa wnętrze i rozprasza Zimno, wspiera ogrzewający aspekt funkcji Śledziony",
-    "distinction": "Gan Jiang to suszony imbir; Sheng Jiang to świeże kłącze o innym profilu działania",
-    "organs": [
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Ogrzewanie Yang Śledziony"
-        ]
-      },
-      {
-        "organ": "Żołądek",
-        "directions": [
-          "Z karty zioła: ogrzewanie Śledziony i Żołądka"
-        ]
-      }
-    ],
-    "meridians": [
-      "Serce",
-      "Śledziona",
-      "Płuca",
-      "Żołądek"
-    ],
-    "temperature": "gorąca",
-    "taste": [
-      "ostry"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/gan-jiang",
-      "channels": [
-        "Heart",
-        "Spleen",
-        "Lungs",
-        "Stomach"
-      ],
-      "temperature": "Hot",
-      "taste": "Acrid / Pungent (辛 xīn)"
+    {
+      "id": "p11",
+      "name": "Wznoszące się Yang Wątroby",
+      "organ": "Wątroba",
+      "section": "Wątroba (Gan)",
+      "family": "yang-w-górę",
+      "patternRef": "k14",
+      "association": "uspokajanie Yang",
+      "note": "Szczególnie zapamiętaj Chai Hu i Xiang Fu dla stagnacji Qi Wątroby oraz Dang Gui i Bai Shao dla niedoboru Krwi Wątroby. Me & Qi wymienia je wśród podstawowych surowców dla tych wzorców.",
+      "leading": "Tian Ma"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/gan-jiang"
-    ]
-  },
-  {
-    "id": "ren-shen",
-    "number": 12,
-    "pinyin": "Ren Shen",
-    "polish": "żeń-szeń właściwy",
-    "latin": "Panax ginseng",
-    "latinNote": "Panax ginseng",
-    "part": "korzeń",
-    "associations": "Yuan Qi, Qi Śledziony i Płuc, wspieranie Qi Serca",
-    "actions": "silnie wzmacnia Qi, wspiera Śledzionę i Płuca; stosowany w tradycyjnych zestawieniach wspierających również Qi Serca",
-    "distinction": "nie utożsamiaj z innymi roślinami sprzedawanymi pod potoczną nazwą „żeń-szeń”",
-    "organs": [
-      {
-        "organ": "Żołądek",
-        "directions": [
-          "Qi Żołądka"
-        ]
-      },
-      {
-        "organ": "Płuca",
-        "directions": [
-          "Qi Płuc"
-        ]
-      },
-      {
-        "organ": "Serce",
-        "directions": [
-          "Qi Serca"
-        ]
-      },
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Z karty zioła: Qi Śledziony i Płuc"
-        ]
-      }
-    ],
-    "meridians": [
-      "Śledziona",
-      "Płuca",
-      "Serce",
-      "Nerki"
-    ],
-    "temperature": "lekko ciepła",
-    "taste": [
-      "słodki",
-      "gorzki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/ren-shen",
-      "channels": [
-        "Spleen",
-        "Lungs",
-        "Heart",
-        "Kidneys"
-      ],
-      "temperature": "Slightly Warm",
-      "taste": "Sweet (甘 gān), Bitter (苦 kǔ)"
+    {
+      "id": "p12",
+      "name": "Zastój Krwi Wątroby",
+      "organ": "Wątroba",
+      "section": "Wątroba (Gan)",
+      "family": "zastój",
+      "patternRef": "k22",
+      "association": "poruszanie Krwi i rozpraszanie zastoju",
+      "note": "Szczególnie zapamiętaj Chai Hu i Xiang Fu dla stagnacji Qi Wątroby oraz Dang Gui i Bai Shao dla niedoboru Krwi Wątroby. Me & Qi wymienia je wśród podstawowych surowców dla tych wzorców.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/ren-shen"
-    ]
-  },
-  {
-    "id": "shi-hu",
-    "number": 13,
-    "pinyin": "Shi Hu",
-    "polish": "dendrobium szlachetne",
-    "latin": "Dendrobium nobile",
-    "latinNote": "Dendrobium nobile; nazwa Shi Hu może również odnosić się do surowców z innych gatunków Dendrobium",
-    "part": "łodyga",
-    "associations": "Yin Żołądka, płyny; także Yin Nerek",
-    "actions": "odżywia Yin Żołądka i wspiera wytwarzanie płynów; odżywia również Yin Nerek",
-    "distinction": "nie jest korzeniem. Dokładny gatunek należy odczytać z identyfikacji surowca",
-    "organs": [
-      {
-        "organ": "Żołądek",
-        "directions": [
-          "Yin Żołądka"
-        ]
-      },
-      {
-        "organ": "Nerki",
-        "directions": [
-          "Z karty zioła: odżywia również Yin Nerek"
-        ]
-      }
-    ],
-    "meridians": [
-      "Żołądek",
-      "Nerki"
-    ],
-    "temperature": "lekko chłodna",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/shi-hu",
-      "channels": [
-        "Stomach",
-        "Kidneys"
-      ],
-      "temperature": "Slightly Cool",
-      "taste": "Sweet (甘 gān)"
+    {
+      "id": "p13",
+      "name": "Niedobór Qi Serca",
+      "organ": "Serce",
+      "section": "Serce (Xin)",
+      "family": "qi-yang",
+      "patternRef": "k27",
+      "association": "wzmacnianie Qi",
+      "note": "Uwaga na różnicę między Sheng Di Huang (rehmania surowa) a Shu Di Huang (rehmania preparowana). To nie są zamienne nazwy tego samego surowca — obróbka zmienia jego tradycyjne właściwości.",
+      "leading": "Ren Shen"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/shi-hu"
-    ]
-  },
-  {
-    "id": "mai-men-dong",
-    "number": 14,
-    "pinyin": "Mai Men Dong / Mai Dong",
-    "polish": "konwalnik japoński",
-    "latin": "Ophiopogon japonicus",
-    "latinNote": "Ophiopogon japonicus",
-    "part": "korzenie bulwiaste",
-    "associations": "Yin Płuc, Serca i Żołądka",
-    "actions": "odżywia Yin, wytwarza płyny, nawilża Płuca; odżywia Yin Serca i łagodzi związane z jego niedoborem Gorąco oraz niepokój",
-    "distinction": "Mai Men Dong i Mai Dong to nazwy tego samego surowca; Tian Men Dong to inny surowiec",
-    "organs": [
-      {
-        "organ": "Żołądek",
-        "directions": [
-          "Yin Żołądka"
-        ]
-      },
-      {
-        "organ": "Płuca",
-        "directions": [
-          "Yin Płuc"
-        ]
-      },
-      {
-        "organ": "Serce",
-        "directions": [
-          "Yin Serca"
-        ]
-      }
-    ],
-    "meridians": [
-      "Serce",
-      "Płuca",
-      "Żołądek"
-    ],
-    "temperature": "lekko chłodna",
-    "taste": [
-      "słodki",
-      "gorzki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/mai-dong",
-      "channels": [
-        "Heart",
-        "Lungs",
-        "Stomach"
-      ],
-      "temperature": "Slightly Cool",
-      "taste": "Sweet (甘 gān), Bitter (苦 kǔ)"
+    {
+      "id": "p14",
+      "name": "Niedobór Yang Serca",
+      "organ": "Serce",
+      "section": "Serce (Xin)",
+      "family": "qi-yang",
+      "patternRef": "k28",
+      "association": "ogrzewanie i uruchamianie",
+      "note": "Uwaga na różnicę między Sheng Di Huang (rehmania surowa) a Shu Di Huang (rehmania preparowana). To nie są zamienne nazwy tego samego surowca — obróbka zmienia jego tradycyjne właściwości.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/mai-dong"
-    ]
-  },
-  {
-    "id": "bei-sha-shen",
-    "number": 15,
-    "pinyin": "Bei Sha Shen",
-    "polish": "glehnia nadmorska",
-    "latin": "Glehnia littoralis",
-    "latinNote": "Glehnia littoralis",
-    "part": "korzeń",
-    "associations": "Yin Płuc i Żołądka",
-    "actions": "odżywia Yin Płuc i Żołądka, wspiera płyny i nawilżenie",
-    "distinction": "zachowuj człon „Bei”; nazwa Sha Shen bez doprecyzowania może być niejednoznaczna",
-    "organs": [
-      {
-        "organ": "Żołądek",
-        "directions": [
-          "Yin Żołądka"
-        ]
-      },
-      {
-        "organ": "Płuca",
-        "directions": [
-          "Yin Płuc"
-        ]
-      }
-    ],
-    "meridians": [
-      "Płuca",
-      "Żołądek"
-    ],
-    "temperature": "lekko chłodna",
-    "taste": [
-      "słodki",
-      "gorzki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/bei-sha-shen",
-      "channels": [
-        "Lungs",
-        "Stomach"
-      ],
-      "temperature": "Slightly Cool",
-      "taste": "Sweet (甘 gān), Bitter (苦 kǔ)"
+    {
+      "id": "p15",
+      "name": "Niedobór Krwi Serca",
+      "organ": "Serce",
+      "section": "Serce (Xin)",
+      "family": "yin-krew-jing",
+      "patternRef": "k29",
+      "association": "odżywianie Krwi i uspokajanie Shen",
+      "note": "Uwaga na różnicę między Sheng Di Huang (rehmania surowa) a Shu Di Huang (rehmania preparowana). To nie są zamienne nazwy tego samego surowca — obróbka zmienia jego tradycyjne właściwości.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/bei-sha-shen"
-    ]
-  },
-  {
-    "id": "zhi-gan-cao",
-    "number": 16,
-    "pinyin": "Zhi Gan Cao",
-    "polish": "lukrecja uralska, preparowana z miodem",
-    "latin": "Glycyrrhiza uralensis",
-    "latinNote": "Glycyrrhiza uralensis jako główne źródło wskazane w monografii Me & Qi; istnieją również inne źródła gatunkowe lukrecji",
-    "part": "korzeń i kłącze preparowane z miodem",
-    "associations": "Qi Serca, Qi Śledziony, harmonizowanie receptury",
-    "actions": "wzmacnia Qi, wspiera Qi Serca i harmonizuje puls w ujęciu TCM; w parze z Gui Zhi wspiera Yang Serca",
-    "distinction": "Zhi Gan Cao oznacza postać preparowaną, a nie dowolną lukrecję",
-    "organs": [
-      {
-        "organ": "Serce",
-        "directions": [
-          "Qi Serca"
-        ]
-      },
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Z karty zioła: Qi Śledziony"
-        ]
-      }
-    ],
-    "meridians": [
-      "Serce",
-      "Płuca",
-      "Śledziona",
-      "Żołądek"
-    ],
-    "temperature": "neutralna",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/gan-cao",
-      "channels": [
-        "Heart",
-        "Lungs",
-        "Spleen",
-        "Stomach"
-      ],
-      "temperature": "Neutral",
-      "taste": "Sweet (甘 gān)",
-      "note": "Kanały podano za monografią Gan Cao (Me & Qi); Zhi Gan Cao to jej postać preparowana z miodem."
+    {
+      "id": "p16",
+      "name": "Niedobór Yin Serca",
+      "organ": "Serce",
+      "section": "Serce (Xin)",
+      "family": "yin-krew-jing",
+      "patternRef": "k30",
+      "association": "odżywianie Yin, nawilżanie i wyciszanie",
+      "note": "Uwaga na różnicę między Sheng Di Huang (rehmania surowa) a Shu Di Huang (rehmania preparowana). To nie są zamienne nazwy tego samego surowca — obróbka zmienia jego tradycyjne właściwości.",
+      "leading": "Sheng Di Huang"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/gan-cao",
-      "https://www.meandqi.com/knowledge-base/formulas/gui-zhi-gan-cao-tang"
-    ]
-  },
-  {
-    "id": "gui-zhi",
-    "number": 17,
-    "pinyin": "Gui Zhi",
-    "polish": "cynamonowiec wonny, cynamonowiec chiński, kasja",
-    "latin": "Cinnamomum cassia",
-    "latinNote": "Cinnamomum cassia",
-    "part": "młode gałązki",
-    "associations": "ogrzewanie i udrażnianie Yang Serca",
-    "actions": "ogrzewa kanały, wspiera Yang i przemiany Qi; w odpowiednich zestawieniach ogrzewa i udrażnia Yang Serca",
-    "distinction": "Gui Zhi oznacza gałązki. Rou Gui oznacza korę; nie są to identyczne surowce",
-    "organs": [
-      {
-        "organ": "Serce",
-        "directions": [
-          "Ogrzewanie Yang Serca"
-        ]
-      }
-    ],
-    "meridians": [
-      "Serce",
-      "Płuca",
-      "Pęcherz moczowy"
-    ],
-    "temperature": "ciepła",
-    "taste": [
-      "ostry",
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/gui-zhi",
-      "channels": [
-        "Heart",
-        "Lungs",
-        "Urinary Bladder"
-      ],
-      "temperature": "Warm",
-      "taste": "Acrid / Pungent (辛 xīn), Sweet (甘 gān)"
+    {
+      "id": "p17",
+      "name": "Niedobór Qi Płuc",
+      "organ": "Płuca",
+      "section": "Płuca (Fei)",
+      "family": "qi-yang",
+      "patternRef": "k62",
+      "association": "",
+      "note": "Dang Shen wzmacnia Qi, natomiast Wu Wei Zi przede wszystkim ściąga i zabezpiecza Qi Płuc. Nie są to dwa zioła o identycznym działaniu.",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/gui-zhi"
-    ]
-  },
-  {
-    "id": "long-yan-rou",
-    "number": 18,
-    "pinyin": "Long Yan Rou",
-    "polish": "longan, „smocze oko”",
-    "latin": "Dimocarpus longan",
-    "latinNote": "Dimocarpus longan",
-    "part": "suszona osnówka, czyli jadalny miąższ owocu",
-    "associations": "Krew Serca, Serce–Śledziona, Shen",
-    "actions": "odżywia Krew, wspiera Serce i Śledzionę, uspokaja Shen",
-    "distinction": "nie chodzi o nasiono ani skórkę owocu",
-    "organs": [
-      {
-        "organ": "Serce",
-        "directions": [
-          "Krew Serca"
-        ]
-      },
-      {
-        "organ": "Śledziona",
-        "directions": [
-          "Z karty zioła: wspiera Serce i Śledzionę"
-        ]
-      }
-    ],
-    "meridians": [
-      "Serce",
-      "Śledziona"
-    ],
-    "temperature": "ciepła",
-    "taste": [
-      "słodki"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/long-yan-rou",
-      "channels": [
-        "Heart",
-        "Spleen"
-      ],
-      "temperature": "Warm",
-      "taste": "Sweet (甘 gān)"
+    {
+      "id": "p18",
+      "name": "Niedobór Yin Płuc",
+      "organ": "Płuca",
+      "section": "Płuca (Fei)",
+      "family": "yin-krew-jing",
+      "patternRef": "k60",
+      "association": "",
+      "note": "Dang Shen wzmacnia Qi, natomiast Wu Wei Zi przede wszystkim ściąga i zabezpiecza Qi Płuc. Nie są to dwa zioła o identycznym działaniu.",
+      "leading": "Bei Sha Shen"
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/long-yan-rou"
-    ]
-  },
-  {
-    "id": "dang-gui",
-    "number": 19,
-    "pinyin": "Dang Gui",
-    "polish": "dzięgiel chiński",
-    "latin": "Angelica sinensis",
-    "latinNote": "Angelica sinensis",
-    "part": "korzeń",
-    "associations": "Krew Wątroby i Serca",
-    "actions": "odżywia i jednocześnie porusza Krew",
-    "distinction": "odżywianie Krwi i poruszanie Krwi to dwie funkcje tego surowca; nie należy redukować go do jednej z nich",
-    "organs": [
-      {
-        "organ": "Serce",
-        "directions": [
-          "Krew Serca"
-        ]
-      },
-      {
-        "organ": "Wątroba",
-        "directions": [
-          "Krew Wątroby"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Serce",
-      "Śledziona"
-    ],
-    "temperature": "ciepła",
-    "taste": [
-      "słodki",
-      "ostry"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/dang-gui",
-      "channels": [
-        "Liver",
-        "Heart",
-        "Spleen"
-      ],
-      "temperature": "Warm",
-      "taste": "Sweet (甘 gān), Acrid / Pungent (辛 xīn)"
+    {
+      "id": "p19",
+      "name": "Niedobór Yin Żołądka",
+      "organ": "Żołądek",
+      "section": "Pozostałe narządy i ważne wzorce",
+      "family": "yin-krew-jing",
+      "patternRef": "k54",
+      "association": "",
+      "note": "",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/dang-gui"
-    ]
-  },
-  {
-    "id": "bai-shao",
-    "number": 20,
-    "pinyin": "Bai Shao",
-    "polish": "piwonia białokwiatowa",
-    "latin": "Paeonia lactiflora",
-    "latinNote": "Paeonia lactiflora",
-    "part": "obrany, poddany obróbce korzeń, określany jako biały korzeń piwonii",
-    "associations": "Krew Wątroby, zachowywanie Yin",
-    "actions": "odżywia Krew Wątroby, zmiękcza Wątrobę, łagodzi napięcie i skurcze, pomaga zachowywać Yin",
-    "distinction": "podstawowe skojarzenie to odżywianie Krwi; nie utożsamiaj z Chi Shao",
-    "organs": [
-      {
-        "organ": "Wątroba",
-        "directions": [
-          "Krew Wątroby"
-        ]
-      }
-    ],
-    "meridians": [
-      "Wątroba",
-      "Śledziona"
-    ],
-    "temperature": "lekko chłodna",
-    "taste": [
-      "gorzki",
-      "kwaśny"
-    ],
-    "meandqi": {
-      "url": "https://www.meandqi.com/knowledge-base/herbs/bai-shao",
-      "channels": [
-        "Liver",
-        "Spleen"
-      ],
-      "temperature": "Slightly Cool",
-      "taste": "Bitter (苦 kǔ), Sour (酸 suān)"
+    {
+      "id": "p20",
+      "name": "Wilgoć-Gorąco Pęcherzyka Żółciowego",
+      "organ": "Pęcherzyk żółciowy",
+      "section": "Pozostałe narządy i ważne wzorce",
+      "family": "wilgoć",
+      "patternRef": "k26",
+      "association": "",
+      "note": "",
+      "leading": ""
     },
-    "sources": [
-      "https://www.meandqi.com/knowledge-base/herbs/bai-shao"
-    ]
-  }
-]
+    {
+      "id": "p21",
+      "name": "Wilgoć-Gorąco Pęcherza Moczowego",
+      "organ": "Pęcherz moczowy",
+      "section": "Pozostałe narządy i ważne wzorce",
+      "family": "wilgoć",
+      "patternRef": "k08",
+      "association": "",
+      "note": "",
+      "leading": ""
+    }
+  ],
+  "herbs": [
+    {
+      "id": "shan-yao",
+      "pinyin": "Shan Yao",
+      "polish": "pochrzyn chiński",
+      "latin": "Dioscorea opposita",
+      "pattern": "p01",
+      "leading": false
+    },
+    {
+      "id": "du-zhong",
+      "pinyin": "Du Zhong",
+      "polish": "kora eukomii",
+      "latin": "Eucommia ulmoides",
+      "pattern": "p01",
+      "leading": false
+    },
+    {
+      "id": "shu-di-huang",
+      "pinyin": "Shu Di Huang",
+      "polish": "preparowany korzeń rehmanii",
+      "latin": "Rehmannia glutinosa",
+      "pattern": "p02",
+      "leading": true
+    },
+    {
+      "id": "mo-han-lian",
+      "pinyin": "Mo Han Lian",
+      "polish": "ziele eklipty",
+      "latin": "Eclipta prostrata",
+      "pattern": "p02",
+      "leading": false
+    },
+    {
+      "id": "zhi-fu-zi",
+      "pinyin": "Zhi Fu Zi",
+      "polish": "przetworzony korzeń tojadu",
+      "latin": "Aconitum carmichaelii",
+      "pattern": "p03",
+      "leading": true
+    },
+    {
+      "id": "rou-gui",
+      "pinyin": "Rou Gui",
+      "polish": "kora cynamonowca chińskiego",
+      "latin": "Cinnamomum cassia",
+      "pattern": "p03",
+      "leading": false
+    },
+    {
+      "id": "tu-si-zi",
+      "pinyin": "Tu Si Zi",
+      "polish": "nasiona kanianki",
+      "latin": "Cuscuta chinensis",
+      "pattern": "p04",
+      "leading": false
+    },
+    {
+      "id": "shan-zhu-yu",
+      "pinyin": "Shan Zhu Yu",
+      "polish": "owoc derenia lekarskiego",
+      "latin": "Cornus officinalis",
+      "pattern": "p04",
+      "leading": false
+    },
+    {
+      "id": "huang-qi",
+      "pinyin": "Huang Qi",
+      "polish": "korzeń traganka",
+      "latin": "Astragalus membranaceus",
+      "pattern": "p05",
+      "leading": true
+    },
+    {
+      "id": "bai-zhu",
+      "pinyin": "Bai Zhu",
+      "polish": "kłącze atraktylodesu",
+      "latin": "Atractylodes macrocephala",
+      "pattern": "p05",
+      "leading": false
+    },
+    {
+      "id": "gan-jiang",
+      "pinyin": "Gan Jiang",
+      "polish": "suszony imbir",
+      "latin": "Zingiber officinale",
+      "pattern": "p06",
+      "leading": true
+    },
+    {
+      "id": "yi-zhi-ren",
+      "pinyin": "Yi Zhi Ren",
+      "polish": "owoc alpinii",
+      "latin": "Alpinia oxyphylla",
+      "pattern": "p06",
+      "leading": false
+    },
+    {
+      "id": "fu-ling",
+      "pinyin": "Fu Ling",
+      "polish": "poria",
+      "latin": "Poria cocos",
+      "pattern": "p07",
+      "leading": false
+    },
+    {
+      "id": "yi-yi-ren",
+      "pinyin": "Yi Yi Ren",
+      "polish": "nasiona łzawnicy",
+      "latin": "Coix lacryma-jobi",
+      "pattern": "p07",
+      "leading": false
+    },
+    {
+      "id": "chai-hu",
+      "pinyin": "Chai Hu",
+      "polish": "korzeń przewiercienia",
+      "latin": "Bupleurum chinense",
+      "pattern": "p08",
+      "leading": true
+    },
+    {
+      "id": "xiang-fu",
+      "pinyin": "Xiang Fu",
+      "polish": "kłącze cibory",
+      "latin": "Cyperus rotundus",
+      "pattern": "p08",
+      "leading": false
+    },
+    {
+      "id": "dang-gui",
+      "pinyin": "Dang Gui",
+      "polish": "korzeń dzięgla chińskiego",
+      "latin": "Angelica sinensis",
+      "pattern": "p09",
+      "leading": true
+    },
+    {
+      "id": "bai-shao",
+      "pinyin": "Bai Shao",
+      "polish": "korzeń piwonii białej",
+      "latin": "Paeonia lactiflora",
+      "pattern": "p09",
+      "leading": false
+    },
+    {
+      "id": "gou-qi-zi",
+      "pinyin": "Gou Qi Zi",
+      "polish": "owoc kolcowoju",
+      "latin": "Lycium barbarum",
+      "pattern": "p10",
+      "leading": false
+    },
+    {
+      "id": "nu-zhen-zi",
+      "pinyin": "Nu Zhen Zi",
+      "polish": "owoc ligustru",
+      "latin": "Ligustrum lucidum",
+      "pattern": "p10",
+      "leading": false
+    },
+    {
+      "id": "tian-ma",
+      "pinyin": "Tian Ma",
+      "polish": "bulwa gastrodii",
+      "latin": "Gastrodia elata",
+      "pattern": "p11",
+      "leading": true
+    },
+    {
+      "id": "gou-teng",
+      "pinyin": "Gou Teng",
+      "polish": "pędy uncarii z haczykami",
+      "latin": "Uncaria rhynchophylla",
+      "pattern": "p11",
+      "leading": false
+    },
+    {
+      "id": "tao-ren",
+      "pinyin": "Tao Ren",
+      "polish": "nasiona brzoskwini",
+      "latin": "Prunus persica",
+      "pattern": "p12",
+      "leading": false
+    },
+    {
+      "id": "hong-hua",
+      "pinyin": "Hong Hua",
+      "polish": "kwiat krokosza",
+      "latin": "Carthamus tinctorius",
+      "pattern": "p12",
+      "leading": false
+    },
+    {
+      "id": "ren-shen",
+      "pinyin": "Ren Shen",
+      "polish": "korzeń żeń-szenia",
+      "latin": "Panax ginseng",
+      "pattern": "p13",
+      "leading": true
+    },
+    {
+      "id": "zhi-gan-cao",
+      "pinyin": "Zhi Gan Cao",
+      "polish": "preparowany korzeń lukrecji",
+      "latin": "Glycyrrhiza uralensis",
+      "pattern": "p13",
+      "leading": false
+    },
+    {
+      "id": "gui-zhi",
+      "pinyin": "Gui Zhi",
+      "polish": "gałązki cynamonowca",
+      "latin": "Cinnamomum cassia",
+      "pattern": "p14",
+      "leading": false
+    },
+    {
+      "id": "xie-bai",
+      "pinyin": "Xie Bai",
+      "polish": "cebulki czosnku chińskiego",
+      "latin": "Allium macrostemon",
+      "pattern": "p14",
+      "leading": false
+    },
+    {
+      "id": "long-yan-rou",
+      "pinyin": "Long Yan Rou",
+      "polish": "miąższ longanu",
+      "latin": "Dimocarpus longan",
+      "pattern": "p15",
+      "leading": false
+    },
+    {
+      "id": "suan-zao-ren",
+      "pinyin": "Suan Zao Ren",
+      "polish": "nasiona głożyny",
+      "latin": "Ziziphus jujuba var. spinosa",
+      "pattern": "p15",
+      "leading": false
+    },
+    {
+      "id": "sheng-di-huang",
+      "pinyin": "Sheng Di Huang",
+      "polish": "surowy korzeń rehmanii",
+      "latin": "Rehmannia glutinosa",
+      "pattern": "p16",
+      "leading": true
+    },
+    {
+      "id": "mai-men-dong",
+      "pinyin": "Mai Men Dong",
+      "polish": "korzeń konwalnika",
+      "latin": "Ophiopogon japonicus",
+      "pattern": "p16",
+      "leading": false
+    },
+    {
+      "id": "dang-shen",
+      "pinyin": "Dang Shen",
+      "polish": "korzeń dzwonkowca",
+      "latin": "Codonopsis pilosula",
+      "pattern": "p17",
+      "leading": false
+    },
+    {
+      "id": "wu-wei-zi",
+      "pinyin": "Wu Wei Zi",
+      "polish": "owoc cytryńca chińskiego",
+      "latin": "Schisandra chinensis",
+      "pattern": "p17",
+      "leading": false
+    },
+    {
+      "id": "bei-sha-shen",
+      "pinyin": "Bei Sha Shen",
+      "polish": "korzeń glehnii",
+      "latin": "Glehnia littoralis",
+      "pattern": "p18",
+      "leading": true
+    },
+    {
+      "id": "bai-he",
+      "pinyin": "Bai He",
+      "polish": "cebulki lilii",
+      "latin": "Lilium spp.",
+      "pattern": "p18",
+      "leading": false
+    },
+    {
+      "id": "shi-hu",
+      "pinyin": "Shi Hu",
+      "polish": "łodyga dendrobium",
+      "latin": "Dendrobium nobile",
+      "pattern": "p19",
+      "leading": false
+    },
+    {
+      "id": "yu-zhu",
+      "pinyin": "Yu Zhu",
+      "polish": "kłącze kokoryczki",
+      "latin": "Polygonatum odoratum",
+      "pattern": "p19",
+      "leading": false
+    },
+    {
+      "id": "yin-chen",
+      "pinyin": "Yin Chen",
+      "polish": "ziele bylicy",
+      "latin": "Artemisia capillaris",
+      "pattern": "p20",
+      "leading": false
+    },
+    {
+      "id": "long-dan-cao",
+      "pinyin": "Long Dan Cao",
+      "polish": "korzeń goryczki",
+      "latin": "Gentiana scabra",
+      "pattern": "p20",
+      "leading": false
+    },
+    {
+      "id": "qu-mai",
+      "pinyin": "Qu Mai",
+      "polish": "ziele goździka",
+      "latin": "Dianthus superbus",
+      "pattern": "p21",
+      "leading": false
+    },
+    {
+      "id": "bian-xu",
+      "pinyin": "Bian Xu",
+      "polish": "ziele rdestu ptasiego",
+      "latin": "Polygonum aviculare",
+      "pattern": "p21",
+      "leading": false
+    }
+  ]
+}

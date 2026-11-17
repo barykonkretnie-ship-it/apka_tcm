@@ -42,10 +42,16 @@ Flaga --web-only nie tworzy pobieralnych plików w katalogu nadrzędnym. Katalog
 
 ## Moduł: Zioła
 
-Trzy quizy (wielokrotny wybór, do 100 pkt za pytanie): **Dopasuj zioło do narządu**, **Wybierz zioła do narządu** i **Połącz zioło z meridianem**, oraz przeglądarka **Baza ziół**. Każde zioło jest pokazywane z nazwą pinyin, polską i łacińską (mniejszą czcionką).
+Trzy quizy jednokrotnego wyboru (1 z 3, runda 10 pytań, powtórka pomyłek):
 
-- `content/ziola-baza-meandqi.md` — źródłowa baza 20 ziół (karty + mapa narząd–niedobór).
-- `content/herbs.json` — dane quizów: karty z pliku bazy, narządy z mapy (oraz z kart, gdy mapa ich nie wymienia) i meridiany z pola „Channels Entered” monografii Me & Qi (odczyt 17.11.2026).
-- `herb-engine.js` — logika quizów; `npm run build` generuje z niej i z danych plik `public/herbs.js`.
+- **Dobierz zioło do wzorca** — np. „Niedobór Yin Serca” → jedno z trzech ziół.
+- **Dobierz wzorzec do zioła** — zioło → jeden z trzech wzorców.
+- **Dobierz zioło do objawów** — objawy wzorca → jedno z trzech ziół.
 
-Narząd, którego meridian zioło wchodzi według Me & Qi, ale którego nie ma w mapie narządów, nie jest liczony jako błąd w quizie „zioło → narząd” i nie pojawia się jako błędna odpowiedź w quizie „narząd → zioła”.
+Do tego **Baza ziół**: 21 wzorców po dwa zioła, ★ oznacza zioło wiodące. Każde zioło jest pokazywane z nazwą pinyin, polską i łacińską (mniejszą czcionką).
+
+- `content/ziola-wzorce.md` — źródłowa wiedza: tabele wzorzec → 2 zioła, skojarzenia, uwagi, zioła wiodące (opracowanie na podstawie Me & Qi).
+- `content/herbs.json` — te same dane w formie do quizu; każdy wzorzec wskazuje (`patternRef`) odpowiadającą pozycję w `content/patterns.json`, z której quiz bierze objawy.
+- `herb-engine.js` — logika quizów; `npm run build` łączy ją z danymi w `public/herbs.js`.
+
+Błędne odpowiedzi pochodzą wyłącznie z wzorców innego narządu i innej rodziny (Qi/Yang, Yin/Krew/Jing, Wilgoć, Zastój, Yang w górę), więc np. Shu Di Huang nigdy nie jest „błędną” odpowiedzią dla Niedoboru Yin Serca. W quizie objawów pokazywane są tylko objawy, których nie mają wzorce stojące za błędnymi odpowiedziami.

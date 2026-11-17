@@ -1,62 +1,64 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { herbs, organs, meridians, herbQuestion, herbRound, evaluateChoice, channelOnlyOrgans } from '../public/herbs.js';
+import { herbs, herbPatterns, herbQuestion, herbRound, herbsOf, patternById, herbById, safeDistractors } from '../public/herbs.js';
+import { patterns } from '../public/questions.js';
 
 const seeds = [0, .25, .5, .99].map(seed => () => seed);
 
-test('baza ma 20 ziół z nazwą pinyin, polską, łacińską i źródłem', () => {
-  assert.equal(herbs.length, 20);
-  assert.equal(new Set(herbs.map(h => h.id)).size, 20);
-  for (const h of herbs) {
-    for (const field of ['pinyin', 'polish', 'latin', 'part', 'actions']) assert.ok(h[field], `${h.id}.${field}`);
-    assert.ok(h.sources.length && h.sources.every(url => url.startsWith('https://www.meandqi.com/')), h.id);
-    assert.ok(h.organs.length && h.organs.every(o => organs.includes(o.organ) && o.directions.length), h.id);
-    assert.ok(h.meridians.length && h.meridians.every(m => meridians.includes(m)), h.id);
+test('21 wzorców po dwa zioła, każde z nazwą pinyin, polską i łacińską', () => {
+  assert.equal(herbPatterns.length, 21);
+  assert.equal(herbs.length, 42);
+  assert.equal(new Set(herbs.map(h => h.id)).size, 42);
+  for (const p of herbPatterns) assert.equal(herbsOf(p).length, 2, p.name);
+  for (const h of herbs) for (const field of ['pinyin', 'polish', 'latin']) assert.ok(h[field], `${h.id}.${field}`);
+  assert.deepEqual(herbsOf(herbPatterns.find(p => p.name === 'Niedobór Yin Serca')).map(h => h.pinyin), ['Sheng Di Huang', 'Mai Men Dong']);
+  assert.equal(herbs.filter(h => h.leading).length, 10);
+});
+
+test('objawy pochodzą z odpowiadającego wzorca w bazie', () => {
+  for (const p of herbPatterns) {
+    const base = patterns.find(x => x.id === p.patternRef);
+    assert.ok(base.quizEnabled, p.name);
+    assert.deepEqual(p.symptoms, base.symptoms.map(s => s.text));
   }
 });
 
-test('mapa narządów odpowiada przykładowym wierszom bazy', () => {
-  const organsOf = id => herbs.find(h => h.id === id).organs.map(o => o.organ).sort();
-  assert.deepEqual(organsOf('yin-yang-huo'), ['Nerki']);
-  assert.deepEqual(organsOf('bai-shao'), ['Wątroba']);
-  assert.deepEqual(organsOf('mai-men-dong'), ['Płuca', 'Serce', 'Żołądek']);
-  assert.deepEqual(herbs.find(h => h.id === 'gui-zhi').meridians, ['Serce', 'Płuca', 'Pęcherz moczowy']);
-});
-
-test('zioło → narząd i zioło → meridian: poprawne odpowiedzi dają 100 pkt', () => {
-  for (const h of herbs) for (const kind of ['herb-organ', 'herb-meridian']) {
-    const q = herbQuestion(kind, h);
-    assert.ok(q.correct.length && q.correct.every(x => q.options.includes(x)), h.id);
-    assert.deepEqual(evaluateChoice(q, q.correct), { correct: true, points: 100, hits: q.correct, missed: [], wrong: [] });
-  }
-});
-
-test('meridian bez wpisu w mapie narządów nie jest liczony jako błąd', () => {
-  const goji = herbs.find(h => h.id === 'gou-qi-zi');
-  assert.deepEqual(channelOnlyOrgans(goji), ['Płuca']);
-  const q = herbQuestion('herb-organ', goji);
-  assert.equal(evaluateChoice(q, [...q.correct, 'Płuca']).points, 100);
-  assert.equal(evaluateChoice(q, [...q.correct, 'Serce']).wrong.length, 1);
-});
-
-test('narząd → zioła: dystraktory nie są powiązane z narządem ani jego meridianem', () => {
-  for (const organ of organs) for (const random of seeds) {
-    const q = herbQuestion('organ-herbs', organ, random);
-    assert.equal(q.options.length, 10, organ);
-    assert.equal(new Set(q.options).size, 10, organ);
-    for (const id of q.options) {
-      const h = herbs.find(x => x.id === id);
-      const linked = h.organs.some(o => o.organ === organ);
-      assert.equal(q.correct.includes(id), linked, `${organ}: ${id}`);
-      if (!linked) assert.ok(!h.meridians.includes(organ), `${organ}: ${id}`);
+test('błędne odpowiedzi są z innego narządu i innej rodziny wzorców', () => {
+  for (const p of herbPatterns) {
+    assert.ok(safeDistractors(p).length >= 4, p.name);
+    for (const kind of ['pattern-herb', 'symptoms-herb']) for (const random of seeds) {
+      const q = herbQuestion(kind, p, random);
+      assert.equal(q.options.length, 3);
+      assert.equal(new Set(q.options).size, 3);
+      assert.equal(herbById(q.answer).pattern, p.id);
+      for (const id of q.options.filter(id => id !== q.answer)) {
+        const other = patternById(herbById(id).pattern);
+        assert.notEqual(other.organ, p.organ);
+        assert.notEqual(other.family, p.family);
+      }
+      if (kind === 'symptoms-herb') {
+        assert.ok(q.symptoms.length >= 3, p.name);
+        const wrong = q.options.filter(id => id !== q.answer).flatMap(id => patternById(herbById(id).pattern).symptoms);
+        assert.ok(q.symptoms.every(s => p.symptoms.includes(s) && !wrong.includes(s)), p.name);
+      }
     }
-    assert.equal(evaluateChoice(q, q.correct).points, 100);
-    assert.equal(evaluateChoice(q, q.options.filter(id => !q.correct.includes(id))).points, 0);
   }
 });
 
-test('rundy mają 8 ziół lub wszystkie narządy', () => {
-  assert.equal(herbRound('herb-organ').length, 8);
-  assert.equal(herbRound('herb-meridian').length, 8);
-  assert.deepEqual(herbRound('organ-herbs').map(q => q.organ).sort(), [...organs].sort());
+test('Sheng Di Huang i Shu Di Huang nigdy nie są błędną odpowiedzią dla siebie nawzajem', () => {
+  const yinSerca = herbPatterns.find(p => p.name === 'Niedobór Yin Serca');
+  for (const random of seeds) assert.ok(!herbQuestion('pattern-herb', yinSerca, random).options.includes('shu-di-huang'));
+});
+
+test('zioło → wzorzec: jeden poprawny wzorzec z trzech', () => {
+  for (const h of herbs) for (const random of seeds) {
+    const q = herbQuestion('herb-pattern', h, random);
+    assert.equal(new Set(q.options).size, 3);
+    assert.equal(q.answer, h.pattern);
+    assert.equal(q.options.filter(id => herbsOf(patternById(id)).some(x => x.id === h.id)).length, 1);
+  }
+});
+
+test('runda ma 10 pytań', () => {
+  for (const kind of ['pattern-herb', 'herb-pattern', 'symptoms-herb']) assert.equal(herbRound(kind).length, 10);
 });

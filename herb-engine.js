@@ -1,13 +1,11 @@
-// Herb quizzes. Organ answers come from the organ map and herb cards of the source file;
-// meridian answers come from "Channels Entered" in the Me & Qi monographs.
-export const organs = ['Nerki', 'Śledziona', 'Żołądek', 'Płuca', 'Serce', 'Wątroba'];
-export const meridians = ['Płuca', 'Jelito grube', 'Żołądek', 'Śledziona', 'Serce', 'Jelito cienkie', 'Pęcherz moczowy', 'Nerki', 'Osierdzie', 'Potrójny Ogrzewacz', 'Pęcherzyk żółciowy', 'Wątroba'];
-
+// Herb quizzes: one correct answer out of three. Wrong options come only from patterns of a
+// different organ and a different family, so a distractor never fits the question.
 export const herbQuizzes = {
-  'herb-organ': { title: 'Dopasuj zioło do narządu', label: 'ZIOŁO → NARZĄD', unit: 'Zioło' },
-  'organ-herbs': { title: 'Wybierz zioła do narządu', label: 'NARZĄD → ZIOŁA', unit: 'Narząd' },
-  'herb-meridian': { title: 'Połącz zioło z meridianem', label: 'ZIOŁO → MERIDIAN', unit: 'Zioło' },
+  'pattern-herb': { title: 'Dobierz zioło do wzorca', label: 'WZORZEC → ZIOŁO', hint: 'Wzorzec, np. Niedobór Yin Serca → wybierz 1 z 3 ziół' },
+  'herb-pattern': { title: 'Dobierz wzorzec do zioła', label: 'ZIOŁO → WZORZEC', hint: 'Zioło → wybierz 1 z 3 wzorców' },
+  'symptoms-herb': { title: 'Dobierz zioło do objawów', label: 'OBJAWY → ZIOŁO', hint: 'Objawy wzorca → wybierz 1 z 3 ziół' },
 };
+export const roundSize = 10;
 
 export function mixHerbs(items, random = Math.random) {
   const result = [...items];
@@ -18,43 +16,33 @@ export function mixHerbs(items, random = Math.random) {
   return result;
 }
 
-export function herbOrgans(herb) {
-  return organs.filter(o => herb.organs.some(x => x.organ === o));
+export const patternById = id => herbPatterns.find(p => p.id === id);
+export const herbById = id => herbs.find(h => h.id === id);
+export const herbsOf = pattern => herbs.filter(h => h.pattern === pattern.id);
+
+export function safeDistractors(pattern) {
+  return herbPatterns.filter(p => p.organ !== pattern.organ && p.family !== pattern.family);
 }
 
-export function herbsForOrgan(organ) {
-  return herbs.filter(h => herbHas(h, organ));
-}
-
-function herbHas(herb, organ) {
-  return herb.organs.some(x => x.organ === organ);
-}
-
-// Organs the herb's channel enters (Me & Qi) without a link in the organ map: never scored as wrong.
-export function channelOnlyOrgans(herb) {
-  return organs.filter(o => herb.meridians.includes(o) && !herbHas(herb, o));
-}
-
-// A question holds `correct` and `options` as ids: organ/meridian names or herb ids.
 export function herbQuestion(kind, subject, random = Math.random) {
-  if (kind === 'herb-organ') return { kind, herb: subject, correct: herbOrgans(subject), neutral: channelOnlyOrgans(subject), options: organs };
-  if (kind === 'herb-meridian') return { kind, herb: subject, correct: meridians.filter(m => subject.meridians.includes(m)), neutral: [], options: meridians };
-  const matching = herbsForOrgan(subject).map(h => h.id);
-  const shown = mixHerbs(matching, random).slice(0, Math.min(6, matching.length));
-  const distractors = mixHerbs(herbs.filter(h => !herbHas(h, subject) && !h.meridians.includes(subject)).map(h => h.id), random).slice(0, 10 - shown.length);
-  return { kind, organ: subject, correct: shown, neutral: [], options: mixHerbs([...shown, ...distractors], random) };
+  if (kind === 'herb-pattern') {
+    const pattern = patternById(subject.pattern);
+    const wrong = mixHerbs(safeDistractors(pattern), random).slice(0, 2).map(p => p.id);
+    return { kind, herb: subject, pattern, answer: pattern.id, options: mixHerbs([pattern.id, ...wrong], random) };
+  }
+  const wrongPatterns = mixHerbs(safeDistractors(subject), random).slice(0, 2);
+  const pick = list => mixHerbs(list, random)[0].id;
+  const answer = pick(herbsOf(subject));
+  const question = { kind, pattern: subject, answer, options: mixHerbs([answer, ...wrongPatterns.map(p => pick(herbsOf(p)))], random) };
+  if (kind === 'symptoms-herb') {
+    // Show symptoms that do not also describe the patterns behind the wrong options.
+    const shared = new Set(wrongPatterns.flatMap(p => p.symptoms));
+    question.symptoms = mixHerbs(subject.symptoms.filter(s => !shared.has(s)), random).slice(0, 4);
+  }
+  return question;
 }
 
 export function herbRound(kind, random = Math.random) {
-  const subjects = kind === 'organ-herbs' ? organs : herbs;
-  return mixHerbs(subjects, random).slice(0, kind === 'organ-herbs' ? organs.length : 8).map(s => herbQuestion(kind, s, random));
-}
-
-export function evaluateChoice(question, selected) {
-  const unique = new Set(selected);
-  const hits = question.correct.filter(x => unique.has(x));
-  const missed = question.correct.filter(x => !unique.has(x));
-  const wrong = [...unique].filter(x => !question.correct.includes(x) && !question.neutral?.includes(x));
-  return { correct: missed.length === 0 && wrong.length === 0,
-    points: Math.max(0, Math.round((hits.length - wrong.length) / question.correct.length * 100)), hits, missed, wrong };
+  const subjects = kind === 'herb-pattern' ? herbs : herbPatterns;
+  return mixHerbs(subjects, random).slice(0, roundSize).map(s => herbQuestion(kind, s, random));
 }
