@@ -1,4 +1,4 @@
-import { chain, poseAt, skeleton, STAND, PAL, hex, clamp, smooth, Rng } from "../../core/index.js";
+import { chain, poseAt, lerpPose, skeleton, STAND, PAL, hex, clamp, smooth, Rng } from "../../core/index.js";
 import * as charge from "../arcane/spell-charge.js";
 import * as fireball from "../fire/fireball.js";
 import * as blast from "../explosions/small-explosion.js";
@@ -32,8 +32,35 @@ const THROWN = { x: 7, crouch: 5, lean: 7, fx: 18, fy: -30, bx: -5, by: -21, ffx
 const SETTLE = { ...THROWN, crouch: 3, lean: 4, fy: -28 };
 
 // where the staff points, in radians from upright (+ leans forward), keyed like the poses
-const SA_KEYS = [[0, 0.06], [RAISE_T, 0.12], [THROW - 0.05, -0.2], [THROW, 0.95], [THROW + 0.5, 0.75], [THROW + 1.4, 0.2], [THROW + 2.1, 0.06]];
+const SA_KEYS = [[0, 0.06], [0.15, 0.06], [RAISE_T, 0.12, "out"], [THROW - 0.12, -0.2, "in"], [THROW, 0.95, "whip"], [THROW + 0.5, 0.75, "out"], [THROW + 1.4, 0.2], [THROW + 2.1, 0.06]];
 const STAFF_UP = 28, STAFF_DOWN = 22;
+
+// Smooth motion: every key eases into the next with no held drawings in between. pixelfx steps limbs on 12 fps
+// drawings by default; sampling the eased curve into a key every 1/60 s makes the act follow it frame by frame.
+const EASE = {
+  smooth: (u) => u * u * (3 - 2 * u),
+  out: (u) => 1 - (1 - u) ** 3,
+  in: (u) => u * u * u,
+  whip: (u) => 1 - (1 - u) ** 4,
+  // a long, gentle settle that overshoots a little
+  settle: (u) => 1 - (1 - u) ** 3 * Math.cos(u * 2.2) ,
+};
+const curveAt = (keys, t, mix) => {
+  if (t <= keys[0][0]) return keys[0][1];
+  for (let i = 0; i < keys.length - 1; i++) {
+    const [t0, a] = keys[i], [t1, b, how] = keys[i + 1];
+    if (t >= t1) continue;
+    return mix(a, b, (EASE[how] ?? EASE.smooth)((t - t0) / (t1 - t0)));
+  }
+  return keys[keys.length - 1][1];
+};
+const mixPose = (a, b, u) => {
+  const o = lerpPose(a, b, u);
+  o.x = (a.x ?? 0) + ((b.x ?? 0) - (a.x ?? 0)) * u;
+  o.y = (a.y ?? 0) + ((b.y ?? 0) - (a.y ?? 0)) * u;
+  return o;
+};
+const staffAngle = (t) => curveAt(SA_KEYS, t, (a, b, u) => a + (b - a) * u);
 
 // the staff head at the moment of release: where the fireball leaves from
 const tipFor = (q, a) => {
@@ -43,60 +70,42 @@ const tipFor = (q, a) => {
 const TIP0 = tipFor(THROWN, 0.95), FLY = (TX - TIP0[0]) / SPEED, HIT = THROW + FLY, END = HIT + 5.4;
 meta.duration = END;
 
-const FLINCH = { turn: 0.9, x: 7, crouch: 5, lean: -3, fx: -4, fy: -36, bx: 5, by: -33, ffx: 4, fbx: -4 };
+const KEYS = [
+  [0, REST],
+  [0.15, REST],
+  [RAISE_T, RAISE, "out"],
+  [0.75, STRAIN],
+  [1.0, RAISE],
+  [THROW - 0.12, COCK, "in"],
+  [THROW, THROWN, "whip"],
+  [HIT, SETTLE, "out"],
+  [HIT + 0.6, { ...SETTLE, lean: 2 }],
+  [THROW + 1.5, { ...REST, x: 4, crouch: 2 }, "settle"],
+  [THROW + 2.3, REST],
+  [END, REST],
+];
+const STEP = 1 / 60, poses = [];
+for (let t = 0; t < END - 1e-6; t += STEP) poses.push([+t.toFixed(5), curveAt(KEYS, t, mixPose)]);
+poses.push([END, REST]);
+
 export const act = {
   target: { x: TX },
-  poses: [
-    [0, REST],
-    [0.15, REST],
-    [RAISE_T, RAISE, "out"],
-    [0.75, STRAIN],
-    [1.0, RAISE],
-    [THROW - 0.08, COCK, "in"],
-    [THROW, THROWN, "snap"],
-    [HIT - 0.02, SETTLE],
-    [HIT + 0.5, { ...SETTLE, lean: 2 }],
-    [THROW + 1.4, { ...REST, x: 4, crouch: 2 }],
-    [THROW + 2.1, REST],
-    [END, REST],
-  ],
+  poses,
   hits: [
-    { t: HIT, stop: 0.18, shake: 0.4, amp: 3, push: 3.4, straw: 34, skin: "char" },
+    { t: HIT, stop: 0.14, shake: 0.45, amp: 3, push: 3.4, straw: 34, skin: "char" },
     { t: HIT + 4.8, push: 0, straw: 0, flash: 0, skin: null },
   ],
   dust: [{ t: THROW, x: 13, n: 8, dir: 1 }, { t: THROW, x: -4, n: 4, dir: -1 }],
 };
-void FLINCH;
 
-// the same pose the act shows: its 12 fps steps, and the breath it takes while held (as createAct does)
-function isHeld(track, t) {
-  if (t >= track[track.length - 1][0] || t < track[0][0]) return true;
-  for (let i = 0; i < track.length - 1; i++) {
-    if (t >= track[i + 1][0]) continue;
-    const a = { ...STAND, ...track[i][1] }, b = { ...STAND, ...track[i + 1][1] };
-    return track[i + 1][0] - track[i][0] > 0.4 && ["fx", "fy", "bx", "by", "crouch", "lean", "x", "y"].every((k) => Math.abs((a[k] ?? 0) - (b[k] ?? 0)) < 1.5);
-  }
-  return false;
-}
+// the pose the act shows at t, and the breath it takes once the act is over (as createAct does)
 function poseNow(t) {
   let q = poseAt(act.poses, t);
-  if (isHeld(act.poses, t)) {
+  if (t >= END) {
     const up = Math.floor(t * 3) & 1;
     q = { ...STAND, ...q, crouch: (q.crouch ?? 0) + up, fy: (q.fy ?? STAND.fy) + up, by: (q.by ?? STAND.by) + up };
   }
   return q;
-}
-function staffAngle(t) {
-  const K = SA_KEYS;
-  if (t <= K[0][0]) return K[0][1];
-  for (let i = 0; i < K.length - 1; i++) {
-    const [t0, a] = K[i], [t1, b] = K[i + 1];
-    if (t >= t1) continue;
-    if (t1 === THROW) return a; // snaps with the throw
-    const s = t0 + Math.floor((t - t0) * 12 + 1e-6) / 12, u = (s - t0) / (t1 - t0);
-    return a + (b - a) * u * u * (3 - 2 * u);
-  }
-  return K[K.length - 1][1];
 }
 
 // ---- the wizard ----------------------------------------------------------------------------------------------------------
