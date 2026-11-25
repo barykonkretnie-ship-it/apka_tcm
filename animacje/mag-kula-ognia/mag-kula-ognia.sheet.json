@@ -1,0 +1,5170 @@
+{
+ "frames": [
+  {
+   "filename": "wizard-fireball 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 1",
+   "frame": {
+    "x": 388,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 2",
+   "frame": {
+    "x": 776,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 3",
+   "frame": {
+    "x": 1164,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 4",
+   "frame": {
+    "x": 1552,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 5",
+   "frame": {
+    "x": 1940,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 6",
+   "frame": {
+    "x": 2328,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 7",
+   "frame": {
+    "x": 2716,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 8",
+   "frame": {
+    "x": 3104,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 9",
+   "frame": {
+    "x": 3492,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 10",
+   "frame": {
+    "x": 3880,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 11",
+   "frame": {
+    "x": 4268,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 12",
+   "frame": {
+    "x": 4656,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 13",
+   "frame": {
+    "x": 0,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 14",
+   "frame": {
+    "x": 388,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 15",
+   "frame": {
+    "x": 776,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 16",
+   "frame": {
+    "x": 1164,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 17",
+   "frame": {
+    "x": 1552,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 18",
+   "frame": {
+    "x": 1940,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 19",
+   "frame": {
+    "x": 2328,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 20",
+   "frame": {
+    "x": 2716,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 21",
+   "frame": {
+    "x": 3104,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 22",
+   "frame": {
+    "x": 3492,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 23",
+   "frame": {
+    "x": 3880,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 24",
+   "frame": {
+    "x": 4268,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 25",
+   "frame": {
+    "x": 4656,
+    "y": 260,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 26",
+   "frame": {
+    "x": 0,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 27",
+   "frame": {
+    "x": 388,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 28",
+   "frame": {
+    "x": 776,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 29",
+   "frame": {
+    "x": 1164,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 30",
+   "frame": {
+    "x": 1552,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 31",
+   "frame": {
+    "x": 1940,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 32",
+   "frame": {
+    "x": 2328,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 33",
+   "frame": {
+    "x": 2716,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 34",
+   "frame": {
+    "x": 3104,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 35",
+   "frame": {
+    "x": 3492,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 36",
+   "frame": {
+    "x": 3880,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 37",
+   "frame": {
+    "x": 4268,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 38",
+   "frame": {
+    "x": 4656,
+    "y": 520,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 39",
+   "frame": {
+    "x": 0,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 40",
+   "frame": {
+    "x": 388,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 41",
+   "frame": {
+    "x": 776,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 42",
+   "frame": {
+    "x": 1164,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 43",
+   "frame": {
+    "x": 1552,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 44",
+   "frame": {
+    "x": 1940,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 45",
+   "frame": {
+    "x": 2328,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 46",
+   "frame": {
+    "x": 2716,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 47",
+   "frame": {
+    "x": 3104,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 48",
+   "frame": {
+    "x": 3492,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 49",
+   "frame": {
+    "x": 3880,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 50",
+   "frame": {
+    "x": 4268,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 51",
+   "frame": {
+    "x": 4656,
+    "y": 780,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 52",
+   "frame": {
+    "x": 0,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 53",
+   "frame": {
+    "x": 388,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 54",
+   "frame": {
+    "x": 776,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 55",
+   "frame": {
+    "x": 1164,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 56",
+   "frame": {
+    "x": 1552,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 57",
+   "frame": {
+    "x": 1940,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 58",
+   "frame": {
+    "x": 2328,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 59",
+   "frame": {
+    "x": 2716,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 60",
+   "frame": {
+    "x": 3104,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 61",
+   "frame": {
+    "x": 3492,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 62",
+   "frame": {
+    "x": 3880,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 63",
+   "frame": {
+    "x": 4268,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 64",
+   "frame": {
+    "x": 4656,
+    "y": 1040,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 65",
+   "frame": {
+    "x": 0,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 66",
+   "frame": {
+    "x": 388,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 67",
+   "frame": {
+    "x": 776,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 68",
+   "frame": {
+    "x": 1164,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 69",
+   "frame": {
+    "x": 1552,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 70",
+   "frame": {
+    "x": 1940,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 71",
+   "frame": {
+    "x": 2328,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 72",
+   "frame": {
+    "x": 2716,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 73",
+   "frame": {
+    "x": 3104,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 74",
+   "frame": {
+    "x": 3492,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 75",
+   "frame": {
+    "x": 3880,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 76",
+   "frame": {
+    "x": 4268,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 77",
+   "frame": {
+    "x": 4656,
+    "y": 1300,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 78",
+   "frame": {
+    "x": 0,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 79",
+   "frame": {
+    "x": 388,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 80",
+   "frame": {
+    "x": 776,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 81",
+   "frame": {
+    "x": 1164,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 82",
+   "frame": {
+    "x": 1552,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 83",
+   "frame": {
+    "x": 1940,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 84",
+   "frame": {
+    "x": 2328,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 85",
+   "frame": {
+    "x": 2716,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 86",
+   "frame": {
+    "x": 3104,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 87",
+   "frame": {
+    "x": 3492,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 88",
+   "frame": {
+    "x": 3880,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 89",
+   "frame": {
+    "x": 4268,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 90",
+   "frame": {
+    "x": 4656,
+    "y": 1560,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 91",
+   "frame": {
+    "x": 0,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 92",
+   "frame": {
+    "x": 388,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 93",
+   "frame": {
+    "x": 776,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 94",
+   "frame": {
+    "x": 1164,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 95",
+   "frame": {
+    "x": 1552,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 96",
+   "frame": {
+    "x": 1940,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 97",
+   "frame": {
+    "x": 2328,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 98",
+   "frame": {
+    "x": 2716,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 99",
+   "frame": {
+    "x": 3104,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 100",
+   "frame": {
+    "x": 3492,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 101",
+   "frame": {
+    "x": 3880,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 102",
+   "frame": {
+    "x": 4268,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 103",
+   "frame": {
+    "x": 4656,
+    "y": 1820,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 104",
+   "frame": {
+    "x": 0,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 105",
+   "frame": {
+    "x": 388,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 106",
+   "frame": {
+    "x": 776,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 107",
+   "frame": {
+    "x": 1164,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 108",
+   "frame": {
+    "x": 1552,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 109",
+   "frame": {
+    "x": 1940,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 110",
+   "frame": {
+    "x": 2328,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 111",
+   "frame": {
+    "x": 2716,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 112",
+   "frame": {
+    "x": 3104,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 113",
+   "frame": {
+    "x": 3492,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 114",
+   "frame": {
+    "x": 3880,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 115",
+   "frame": {
+    "x": 4268,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 116",
+   "frame": {
+    "x": 4656,
+    "y": 2080,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 117",
+   "frame": {
+    "x": 0,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 118",
+   "frame": {
+    "x": 388,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 119",
+   "frame": {
+    "x": 776,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 120",
+   "frame": {
+    "x": 1164,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 121",
+   "frame": {
+    "x": 1552,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 122",
+   "frame": {
+    "x": 1940,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 123",
+   "frame": {
+    "x": 2328,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 124",
+   "frame": {
+    "x": 2716,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 125",
+   "frame": {
+    "x": 3104,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 126",
+   "frame": {
+    "x": 3492,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 127",
+   "frame": {
+    "x": 3880,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 128",
+   "frame": {
+    "x": 4268,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 129",
+   "frame": {
+    "x": 4656,
+    "y": 2340,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 130",
+   "frame": {
+    "x": 0,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 131",
+   "frame": {
+    "x": 388,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 132",
+   "frame": {
+    "x": 776,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 133",
+   "frame": {
+    "x": 1164,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 134",
+   "frame": {
+    "x": 1552,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 135",
+   "frame": {
+    "x": 1940,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 136",
+   "frame": {
+    "x": 2328,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 137",
+   "frame": {
+    "x": 2716,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 138",
+   "frame": {
+    "x": 3104,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 139",
+   "frame": {
+    "x": 3492,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 140",
+   "frame": {
+    "x": 3880,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 141",
+   "frame": {
+    "x": 4268,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 142",
+   "frame": {
+    "x": 4656,
+    "y": 2600,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 143",
+   "frame": {
+    "x": 0,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 144",
+   "frame": {
+    "x": 388,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 145",
+   "frame": {
+    "x": 776,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 146",
+   "frame": {
+    "x": 1164,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 147",
+   "frame": {
+    "x": 1552,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 148",
+   "frame": {
+    "x": 1940,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 149",
+   "frame": {
+    "x": 2328,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 150",
+   "frame": {
+    "x": 2716,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 151",
+   "frame": {
+    "x": 3104,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 152",
+   "frame": {
+    "x": 3492,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 153",
+   "frame": {
+    "x": 3880,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 154",
+   "frame": {
+    "x": 4268,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 155",
+   "frame": {
+    "x": 4656,
+    "y": 2860,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 156",
+   "frame": {
+    "x": 0,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 157",
+   "frame": {
+    "x": 388,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 158",
+   "frame": {
+    "x": 776,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 159",
+   "frame": {
+    "x": 1164,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 160",
+   "frame": {
+    "x": 1552,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 161",
+   "frame": {
+    "x": 1940,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 162",
+   "frame": {
+    "x": 2328,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 163",
+   "frame": {
+    "x": 2716,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 164",
+   "frame": {
+    "x": 3104,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 165",
+   "frame": {
+    "x": 3492,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 166",
+   "frame": {
+    "x": 3880,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 167",
+   "frame": {
+    "x": 4268,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 168",
+   "frame": {
+    "x": 4656,
+    "y": 3120,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 169",
+   "frame": {
+    "x": 0,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 170",
+   "frame": {
+    "x": 388,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 171",
+   "frame": {
+    "x": 776,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 172",
+   "frame": {
+    "x": 1164,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 173",
+   "frame": {
+    "x": 1552,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 174",
+   "frame": {
+    "x": 1940,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 175",
+   "frame": {
+    "x": 2328,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 176",
+   "frame": {
+    "x": 2716,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 177",
+   "frame": {
+    "x": 3104,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 178",
+   "frame": {
+    "x": 3492,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 179",
+   "frame": {
+    "x": 3880,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 180",
+   "frame": {
+    "x": 4268,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 181",
+   "frame": {
+    "x": 4656,
+    "y": 3380,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 182",
+   "frame": {
+    "x": 0,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 183",
+   "frame": {
+    "x": 388,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 184",
+   "frame": {
+    "x": 776,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 185",
+   "frame": {
+    "x": 1164,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 186",
+   "frame": {
+    "x": 1552,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 187",
+   "frame": {
+    "x": 1940,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 188",
+   "frame": {
+    "x": 2328,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 189",
+   "frame": {
+    "x": 2716,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 190",
+   "frame": {
+    "x": 3104,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 191",
+   "frame": {
+    "x": 3492,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 192",
+   "frame": {
+    "x": 3880,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 193",
+   "frame": {
+    "x": 4268,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 194",
+   "frame": {
+    "x": 4656,
+    "y": 3640,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 195",
+   "frame": {
+    "x": 0,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 196",
+   "frame": {
+    "x": 388,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 197",
+   "frame": {
+    "x": 776,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 198",
+   "frame": {
+    "x": 1164,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 199",
+   "frame": {
+    "x": 1552,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 200",
+   "frame": {
+    "x": 1940,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 201",
+   "frame": {
+    "x": 2328,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 202",
+   "frame": {
+    "x": 2716,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 203",
+   "frame": {
+    "x": 3104,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 204",
+   "frame": {
+    "x": 3492,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 205",
+   "frame": {
+    "x": 3880,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 206",
+   "frame": {
+    "x": 4268,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 207",
+   "frame": {
+    "x": 4656,
+    "y": 3900,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 208",
+   "frame": {
+    "x": 0,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 209",
+   "frame": {
+    "x": 388,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 210",
+   "frame": {
+    "x": 776,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 211",
+   "frame": {
+    "x": 1164,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 212",
+   "frame": {
+    "x": 1552,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 213",
+   "frame": {
+    "x": 1940,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 214",
+   "frame": {
+    "x": 2328,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 215",
+   "frame": {
+    "x": 2716,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 216",
+   "frame": {
+    "x": 3104,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 217",
+   "frame": {
+    "x": 3492,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 218",
+   "frame": {
+    "x": 3880,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 219",
+   "frame": {
+    "x": 4268,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 220",
+   "frame": {
+    "x": 4656,
+    "y": 4160,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 221",
+   "frame": {
+    "x": 0,
+    "y": 4420,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 222",
+   "frame": {
+    "x": 388,
+    "y": 4420,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "wizard-fireball 223",
+   "frame": {
+    "x": 776,
+    "y": 4420,
+    "w": 388,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 388,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 388,
+    "h": 260
+   },
+   "duration": 33
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "wizard-fireball.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 5044,
+   "h": 4680
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "wizard-fireball",
+    "from": 0,
+    "to": 223,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "moves/wizard-fireball",
+   "name": "Wizard fireball",
+   "fps": 30,
+   "loop": false,
+   "frames": 224,
+   "frameSize": [
+    388,
+    260
+   ],
+   "pivot": [
+    70,
+    208
+   ],
+   "columns": 13,
+   "act": {
+    "windup": 0,
+    "recovery": 0,
+    "onBody": false,
+    "targets": [
+     200
+    ],
+    "hits": [
+     {
+      "t": 1.8063561662312693,
+      "freeze": 0.18,
+      "shake": 0.4,
+      "amp": 3,
+      "push": 3.4,
+      "skin": "char"
+     },
+     {
+      "t": 6.606356166231269,
+      "freeze": 0,
+      "shake": 0,
+      "amp": 0,
+      "push": 0,
+      "skin": null
+     }
+    ],
+    "poses": [
+     {
+      "t": 0,
+      "how": "smooth",
+      "pose": {
+       "crouch": 1,
+       "fx": 9,
+       "fy": -20,
+       "bx": 5,
+       "by": -15,
+       "ffx": 4,
+       "fbx": -5
+      }
+     },
+     {
+      "t": 0.15,
+      "how": "smooth",
+      "pose": {
+       "crouch": 1,
+       "fx": 9,
+       "fy": -20,
+       "bx": 5,
+       "by": -15,
+       "ffx": 4,
+       "fbx": -5
+      }
+     },
+     {
+      "t": 0.45,
+      "how": "out",
+      "pose": {
+       "crouch": 2,
+       "lean": -3,
+       "fx": 9,
+       "fy": -37,
+       "bx": 16,
+       "by": -27,
+       "ffx": 6,
+       "fbx": -7,
+       "turn": 0.6
+      }
+     },
+     {
+      "t": 0.75,
+      "how": "smooth",
+      "pose": {
+       "crouch": 3,
+       "lean": -3,
+       "fx": 9,
+       "fy": -37,
+       "bx": 15,
+       "by": -28,
+       "ffx": 6,
+       "fbx": -7,
+       "turn": 0.6
+      }
+     },
+     {
+      "t": 1,
+      "how": "smooth",
+      "pose": {
+       "crouch": 2,
+       "lean": -3,
+       "fx": 9,
+       "fy": -37,
+       "bx": 16,
+       "by": -27,
+       "ffx": 6,
+       "fbx": -7,
+       "turn": 0.6
+      }
+     },
+     {
+      "t": 1.27,
+      "how": "in",
+      "pose": {
+       "crouch": 4,
+       "lean": -6,
+       "fx": 6,
+       "fy": -37,
+       "bx": 13,
+       "by": -25,
+       "ffx": 6,
+       "fbx": -7,
+       "turn": 0.6,
+       "x": -2
+      }
+     },
+     {
+      "t": 1.35,
+      "how": "snap",
+      "pose": {
+       "x": 7,
+       "crouch": 5,
+       "lean": 7,
+       "fx": 18,
+       "fy": -30,
+       "bx": -5,
+       "by": -21,
+       "ffx": 13,
+       "fbx": -9,
+       "toeB": true
+      }
+     },
+     {
+      "t": 1.7863561662312692,
+      "how": "smooth",
+      "pose": {
+       "x": 7,
+       "crouch": 3,
+       "lean": 4,
+       "fx": 18,
+       "fy": -28,
+       "bx": -5,
+       "by": -21,
+       "ffx": 13,
+       "fbx": -9,
+       "toeB": true
+      }
+     },
+     {
+      "t": 2.3063561662312693,
+      "how": "smooth",
+      "pose": {
+       "x": 7,
+       "crouch": 3,
+       "lean": 2,
+       "fx": 18,
+       "fy": -28,
+       "bx": -5,
+       "by": -21,
+       "ffx": 13,
+       "fbx": -9,
+       "toeB": true
+      }
+     },
+     {
+      "t": 2.75,
+      "how": "smooth",
+      "pose": {
+       "crouch": 2,
+       "fx": 9,
+       "fy": -20,
+       "bx": 5,
+       "by": -15,
+       "ffx": 4,
+       "fbx": -5,
+       "x": 4
+      }
+     },
+     {
+      "t": 3.45,
+      "how": "smooth",
+      "pose": {
+       "crouch": 1,
+       "fx": 9,
+       "fy": -20,
+       "bx": 5,
+       "by": -15,
+       "ffx": 4,
+       "fbx": -5
+      }
+     },
+     {
+      "t": 7.20635616623127,
+      "how": "smooth",
+      "pose": {
+       "crouch": 1,
+       "fx": 9,
+       "fy": -20,
+       "bx": 5,
+       "by": -15,
+       "ffx": 4,
+       "fbx": -5
+      }
+     }
+    ]
+   }
+  }
+ }
+}
